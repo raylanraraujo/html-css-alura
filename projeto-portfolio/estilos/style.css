@@ -6,7 +6,10 @@
 }
 
 body {
+    height: 100vh;
     background-color: #f6f6f6;
+    box-sizing: border-box;
+
     font-family: Montserrat;
     margin: auto;
     color: #1D272F;
