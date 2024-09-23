@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * { /*serve para fazer uma configuração global de estilo para todo o documento*/
@@ -7,27 +9,35 @@
 
 body {
     height: 100vh;
+   
     background-color: #f6f6f6;
     box-sizing: border-box;
 
-    font-family: Montserrat;
-    margin: auto;
+    
     color: #1D272F;
 }
 
 .apresentacao {
-    display: flex; /*Isto define um flex container; inline ou block dependendo do valor dado. Ele habilita um flex context para todos os seus filhos diretos.*/
-    align-items: center;
+    display: flex; /* Isto define um flex container; inline ou block dependendo do valor dado. Ele habilita um flex context para todos os seus filhos diretos.*/
+   
+    align-items: center; /* alinha os itens baseados no alinhamento entre eles mesmos */
+    justify-content: space-between; /**/
+    
+    margin: 10%;
 }
 
-h1 {
-    font-size: 1.3em;
-    font-weight: 600;
+.apresentacao__conteudo{
+    width: 615px;
 }
 
-p {
-    font-size: 1em;
-    font-weight: 400;
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .destaque-titulo {
@@ -35,7 +45,27 @@ p {
     font-weight: 600;
 }
 
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__link__link {
+    background-color: #FBDF04;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: #1D272F;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+/*
 a {
+    font-family: "Montserrat", sans-serif;
     background-color: #FBDF04;
     color: #1D272F;
     text-decoration: none;
@@ -54,7 +84,7 @@ button {
     color: black;
     border: none;
 }
-
+*/
 img {
     width: 250px;
     margin: 50px
