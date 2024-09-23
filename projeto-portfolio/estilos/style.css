@@ -71,28 +71,13 @@ body {
 a:hover{
     border: 1px solid #1D272F;
 }
-/*
-a {
-    font-family: "Montserrat", sans-serif;
-    background-color: #FBDF04;
-    color: #1D272F;
-    text-decoration: none;
-    padding: 10px 50px;
-    border-radius: 10px;
-    font-size: 0.8em;
-    
-  
-}
 
-a:hover {
-    border: 1px solid #1D272F;
-}
 button {
     background-color: aquamarine;
     color: black;
     border: none;
 }
-*/
+
 img {
     width: 450px;
     margin: 50px;
