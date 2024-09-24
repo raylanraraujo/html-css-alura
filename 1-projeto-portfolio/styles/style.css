@@ -79,6 +79,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.apresentacao__conteudo__paragrafo a {
+    text-decoration: none;
+}
+
 .apresentacao__links__subtitulo{
     font-family: 'krona One', sans-serif;
     font-weight: 400;
