@@ -27,11 +27,12 @@ body {
     font-family: 'Montserat', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    color: #1D272F;
+    text-decoration: none;
 
     /* color: #1D272F;
     text-align: center;
     padding: 10px 15px;
-    text-decoration: none;
     border-top: 1px solid #1D272F;
     border-left: 1px solid #1D272F;
     border-right: 1px solid #1D272F;
