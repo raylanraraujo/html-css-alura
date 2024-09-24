@@ -65,23 +65,31 @@ body {
 
 .apresentacao__link__link {
     /* background-color: #FBDF04; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    border: 2px solid #FBDF04;
     width: 378px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
+    font-weight: 600;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: #1D272F;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.055);
-    border: 2px solid #FBDF04;
+    
 }
 
-
-a:hover{
+.apresentacao__link__link:hover {
     border: 1px solid #1D272F;
+    background-color: #FBDF04;
+    color: #1D272F;
+    width: 450px;
+    transition: 0.1s;
 }
+
 
 button {
     background-color: aquamarine;
@@ -89,7 +97,7 @@ button {
     border: none;
 }
 
-img {
+.foto_perfil {
     width: 450px;
     margin: 50px;
     border-radius: 20px;
