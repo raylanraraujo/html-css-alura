@@ -39,13 +39,14 @@ body {
     width: 90px;  */
 }
 
-.cabecalho__menu__link:hover {
-    /* background-color: #FBDF04;
+/* .cabecalho__menu__link:hover {
+    background-color: #FBDF04;
     width: 120px;
     font-weight: bold;
-    transition: 0.2s; */
+    transition: 0.2s;
 
-}
+} */
+ 
 .apresentacao {
     display: flex; /* Isto define um flex container; inline ou block dependendo do valor dado. Ele habilita um flex context para todos os seus filhos diretos.*/
    
