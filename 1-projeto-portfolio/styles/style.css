@@ -144,7 +144,7 @@ body {
 
 .foto_perfil {
     width: 50%;
-    margin: 50px;
+    /* margin: 50px; */
     border-radius: 20px;
 }
 
@@ -159,6 +159,13 @@ body {
 }
 
 @media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center
+    }
     .apresentacao {
         flex-direction: column-reverse; 
     }
