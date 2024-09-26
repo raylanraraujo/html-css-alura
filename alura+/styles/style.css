@@ -7,6 +7,7 @@
     --secundaria: #FFFFFF;
     --terciaria: #F9F9F9;
     --quaternaria: #EC2F46;
+    --button: #167BF7;
     --copy:#C0C0C0;
 
     --fonte: 'Inter', sans-serif;
@@ -15,8 +16,52 @@
 body {
     font-family: var(--fonte);
     background-color: var(--primaria);
+    margin: 0 8%;
+}
+.conteudo__combo {
+    width: 92vw;
+    height: 680px;
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto;
 }
 
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    gap: 16px;
+    padding-top: 125px;
+    
+
+}
+.conteudo__combo__titulo {
+    text-align: center;
+    color: var(--secundaria);
+}
+
+.conteudo__combo__imagem {
+    margin-bottom: 38px;
+}
+
+.conteudo__combo__comboplus {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secundaria);
+    background-color: var(--button);
+    border: 1px solid var(--button);
+    border-radius: 8px;
+    width: 90%;
+    padding: 4%;
+    
+}
+.conteudo__combo__asterisco {
+    color: var(--copy);
+    font-size: 0.75rem;
+}
 .about {
     display: flex;
     gap: 16px;
