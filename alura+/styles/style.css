@@ -7,10 +7,33 @@
     --secundaria: #FFFFFF;
     --terciaria: #F9F9F9;
     --quaternaria: #EC2F46;
+    --copy:#C0C0C0;
 
     --fonte: 'Inter', sans-serif;
 }
 
 body {
-    font-family: var(--fonte)
+    font-family: var(--fonte);
+    background-color: var(--primaria);
+}
+
+.about {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.about__link {
+    text-decoration: none;
+    color: var(--secundaria);
+    font-size: 1rem;
+}
+
+.about__link:hover {
+    color: var(--quaternaria);
+}
+
+footer{
+    color: var(--copy);
+    font-size: 0.875rem;
+    text-align: center;
 }
