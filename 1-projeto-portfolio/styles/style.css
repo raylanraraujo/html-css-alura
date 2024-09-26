@@ -72,7 +72,7 @@ body {
 }
 
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px; 
@@ -111,14 +111,14 @@ body {
     
 }
 
-.apresentacao__link__link {
+.apresentacao__link__navegacao {
     /* background-color: #FBDF04; */
     display: flex;
     justify-content: center;
     gap: 16px;
     align-items: center;
     border: 2px solid var(--terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -141,11 +141,9 @@ body {
 }
 
 .foto_perfil {
-    width: 450px;
+    width: 50%;
     margin: 50px;
     border-radius: 20px;
-    
- /*adicionar estilos para formatar a imagem*/
 }
 
 .rodape {
