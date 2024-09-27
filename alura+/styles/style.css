@@ -123,6 +123,7 @@ body {
 
 .conteudo__telas__texto {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 16px;
     width: 50%;
@@ -144,6 +145,29 @@ body {
     padding: 16px;
 }
 
+.conteudo__baixe {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin-left: 9.8%;
+    margin-top: 226px;
+}
+
+.conteudo__baixe__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 49%;
+}
+
+.conteudo__baixe__titulo {
+    color: var(--secundaria);
+    font-size: 3rem;
+}
+
+.conteudo__baixe__paragrafo {
+    color: var(--terciaria);
+}
 
 
 
