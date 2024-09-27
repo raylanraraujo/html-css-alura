@@ -13,11 +13,17 @@
     --fonte: 'Inter', sans-serif;
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     font-family: var(--fonte);
     background-color: var(--primaria);
     margin: 0 8%;
 }
+
 .conteudo__combo {
     width: 92vw;
     height: 680px;
@@ -35,12 +41,12 @@ body {
     width: 37%;
     gap: 16px;
     padding-top: 125px;
-    
-
 }
+
 .conteudo__combo__titulo {
     text-align: center;
     color: var(--secundaria);
+    margin-bottom: 6px;
 }
 
 .conteudo__combo__imagem {
@@ -56,17 +62,29 @@ body {
     border-radius: 8px;
     width: 90%;
     padding: 4%;
-    
 }
+
+.conteudo__combo__aluraplus{
+    text-align: center;
+    color: var(--secundaria);
+    border: 1px solid var(--secundaria);
+    border-radius: 8px;
+    width: 90%;
+    padding: 4%;
+}
+
 .conteudo__combo__asterisco {
     color: var(--copy);
     font-size: 0.75rem;
+    margin-top: -6px;
 }
+
 .about {
     display: flex;
     gap: 16px;
     justify-content: center;
 }
+
 .about__link {
     text-decoration: none;
     color: var(--secundaria);
