@@ -113,7 +113,7 @@ body {
     font-size: 1rem;
 }
 
-.telas {
+.conteudo__telas {
     display: flex;
     align-items: center;
     margin-left: 8.3%;
@@ -121,19 +121,19 @@ body {
     gap: 70px;
 }
 
-.telas__conteudo {
+.conteudo__telas__texto {
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 50%;
 }
 
-.telas__conteudo__paragrafo {
+.conteudo__telas__texto__paragrafo {
     color: var(--terciaria);
     font-size: 1rem;
 }
 
-.telas__conteudo__assine {
+.conteudo__telas__texto__assine {
     text-decoration: none;
     text-align: center;
     color: var(--secundaria);
