@@ -54,8 +54,9 @@ body {
 .conteudo__combo__titulo {
     text-align: center;
     color: var(--secundaria);
-    margin-bottom: 6px;
+    font-weight: bold;
     font-size: 1.75rem;
+    margin-bottom: 6px;
 }
 
 .conteudo__combo__imagem {
@@ -106,6 +107,7 @@ body {
 .conteudo__assista__titulo {
     color: var(--secundaria);
     font-size: 3rem;
+    font-weight: bold;
 }
 
 .conteudo__assista__paragrafo{
@@ -163,6 +165,7 @@ body {
 .conteudo__baixe__titulo {
     color: var(--secundaria);
     font-size: 3rem;
+    font-weight: bold;
 }
 
 .conteudo__baixe__paragrafo {
