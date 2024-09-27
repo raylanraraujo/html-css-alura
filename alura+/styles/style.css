@@ -21,16 +21,24 @@
 body {
     font-family: var(--fonte);
     background-color: var(--primaria);
-    margin: 0 8%;
+    /* margin: 0 8%; */
+    width: 92vw;
+    height: 680px ;
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto; 
 }
 
 .conteudo__combo {
     width: 92vw;
     height: 680px;
-    background-image: url(../assets/Background.png);
+    margin-left: 6%;
+    
+    /* background-image: url(../assets/Background.png);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: auto;
+    background-size: auto; */
 }
 
 .teste {
@@ -38,7 +46,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 37%;
+    width: 40%;
     gap: 16px;
     padding-top: 125px;
 }
@@ -47,6 +55,7 @@ body {
     text-align: center;
     color: var(--secundaria);
     margin-bottom: 6px;
+    font-size: 1.75rem;
 }
 
 .conteudo__combo__imagem {
@@ -56,6 +65,7 @@ body {
 .conteudo__combo__comboplus {
     text-decoration: none;
     text-align: center;
+    font-size: 1rem;
     color: var(--secundaria);
     background-color: var(--button);
     border: 1px solid var(--button);
@@ -67,6 +77,7 @@ body {
 .conteudo__combo__aluraplus{
     text-align: center;
     color: var(--secundaria);
+    font-size: 1rem;
     border: 1px solid var(--secundaria);
     border-radius: 8px;
     width: 90%;
@@ -78,6 +89,31 @@ body {
     font-size: 0.75rem;
     margin-top: -6px;
 }
+
+.conteudo__assista {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    margin-left: 10%;
+}
+
+.conteudo__assista__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.conteudo__assista__titulo {
+    color: var(--secundaria);
+    font-size: 3rem;
+}
+
+.conteudo__assista__paragrafo{
+    color: #F9F9F9;
+}
+
+
+
 
 .about {
     display: flex;
