@@ -110,7 +110,40 @@ body {
 
 .conteudo__assista__paragrafo{
     color: #F9F9F9;
+    font-size: 1rem;
 }
+
+.telas {
+    display: flex;
+    align-items: center;
+    margin-left: 8.3%;
+    margin-top: 151px;
+    gap: 70px;
+}
+
+.telas__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+}
+
+.telas__conteudo__paragrafo {
+    color: var(--terciaria);
+    font-size: 1rem;
+}
+
+.telas__conteudo__assine {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secundaria);
+    background-color: var(--button);
+    border: 1px solid var(--button);
+    border-radius: 8px;
+    width: 27.5%;
+    padding: 16px;
+}
+
 
 
 
