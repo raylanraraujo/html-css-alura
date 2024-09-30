@@ -6,11 +6,6 @@
     --fonte-principal: 'Inter';
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: var(--cor-fundo);
     color: var(--branco-principal);
@@ -19,13 +14,17 @@ body {
     font-weight: 400;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .principal {
     background-image: url(assets/Background.png);
     background-repeat: no-repeat;
     background-size: contain; /*vai preencher todo o container (que no caso é a section)*/
-    text-align: center;
     align-items: center; /*como o grid está em coluna, a propriedade coloca o item alinhado no centro dessa coluna */
-
+    text-align: center; /*ele funciona ao centro tudo que esta dentr ode um elemento de bloco*/
 }
 
 .container {
@@ -34,8 +33,24 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.container__caixa {
-    margin: 0 6em;
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
 }
 
 .container__titulo {
@@ -45,29 +60,37 @@ body {
 
 .container__imagem{
     margin: 1em 0 2em 0;
-
 }
-.container__botao {
-    background-color: var(--botao-azul);
-    border-radius: 8px;
-    padding: 1em;
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center; /*coloca os itens centralizados dentro da coluna do grid */
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
     color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1em;
+    margin-bottom: 0.1em;
 }
 
-.container__botao_secundario{
-    background-color: transparent;
-    border: 1px solid var(--branco-principal);
-    border-radius: 8px;
-    padding: 1em;
-    display: block;
-    color: var(--branco-principal);
-    text-decoration: none;
-}
-
-.container__aviso {
-    font-size: 12px;
+.descricao__texto {
     color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
