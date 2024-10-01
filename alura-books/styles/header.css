@@ -1,0 +1,24 @@
+.cabecalho__menu-hamburger {
+    height: 24px;
+    width: 34px;
+    background-image: url("../imagens/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block; /*para poder permitir ajustar altura e largura do item*/
+}
+
+.cabecalho { 
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
