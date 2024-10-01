@@ -35,6 +35,9 @@
     display: block;
 }
 
+.container__botao {
+    display: none;
+}
 .lista-menu__titulo , .lista-menu__item {
     background-color: var(--branco);
     padding: 1em;
@@ -42,6 +45,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
