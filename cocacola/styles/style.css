@@ -6,8 +6,12 @@
     --preto-acinzentado: #0B0B0B;
     --fundo-menu: #DB3534;
     --cor-button: #F40000;
+    --fonte-principal: "Poppins", sans-serif;
 }
 
 body{
     background-color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }
