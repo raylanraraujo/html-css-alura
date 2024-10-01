@@ -26,10 +26,25 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 80%;
-    text-align: right;
+    left: 60%;
+    text-align: center;
+    background-color: var(--fundo-menu);
+    border-radius: 0 0 0 8px;
 }
 
 .container__botao:checked~.lista-menu {
     display: block;
+}
+
+.lista-menu__item {
+    width: 40vw;
+    box-sizing: border-box;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius:8px;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: var(--cor-de-fundo);
 }
