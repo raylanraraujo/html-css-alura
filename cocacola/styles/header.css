@@ -1,11 +1,13 @@
 .cabecalho {
     background-color: var(--preto-acinzentado);
+    position: relative;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ 
 }
 .cabecalho__menu-hamburguer {
   background-image: url("../assets/menu.svg");
@@ -19,3 +21,15 @@
 .cabecalho__imagem {
     padding: 1em 1.5em;
 } 
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    text-align: right;
+}
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
