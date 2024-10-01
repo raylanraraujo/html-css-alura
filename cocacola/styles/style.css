@@ -1,0 +1,10 @@
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cinza: #D9D9D9; 
+    --preto-acinzentado: #0B0B0B;
+    --cor-button: #F40000;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
