@@ -69,3 +69,7 @@
     text-decoration: underline;
     color: var(--cor-de-fundo);
 }
+
+.link:active {
+    color: var(--preto-acinzentado);
+}
