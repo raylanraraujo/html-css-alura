@@ -2,9 +2,10 @@
     background: var(---vermelho-degrade);
     height: 260px;
     padding: 6rem 3.75rem;
-   
+    margin-top: 0;
     text-align: center;
     position: relative;
+    
 }
 
 .coke-sem-acucar__titulo , .coke-sem-acucar__texto {
@@ -22,6 +23,6 @@
 }
 .coke-sem-acucar__imagem {
     position: absolute;
-    top: 46%;
-    left: 11%;
+    top: 58%;
+    left: 25%;
 }
