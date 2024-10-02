@@ -4,10 +4,12 @@
 @import url("styles/mais-vendidos.css");
 @import url("styles/topicos.css");
 @import url("styles/por-dentro.css");
+@import url("styles/rodape.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
     --branco:#FFFFFF;
+    --branco-cinza: #F9F9F9; 
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul: #002F52;
