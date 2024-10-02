@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/studio.css");
 @import url("styles/saiba.css");
+@import url("styles/coke-sem-acucar.css");
 
 :root {
     --cor-de-fundo: #FFFFFF;
@@ -8,6 +9,7 @@
     --preto-acinzentado: #0B0B0B;
     --fundo-menu: #DB3534;
     --cor-button: #F40000;
+    ---vermelho-degrade: linear-gradient(110deg, #F40000 43%, #000000 100%);
     --fonte-principal: "Poppins", sans-serif;
 }
 
