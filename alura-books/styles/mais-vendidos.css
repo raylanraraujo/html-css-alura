@@ -1,0 +1,52 @@
+.mais-vendidos__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+}
+
+.card__descricao{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descricao__autor {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descricao__autor-nome {
+    color: var(--azul-degrade);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-size: 14px;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+.botoes {
+    display: flex;
+}
+
+.botoes__item {
+    margin: 0 0.8em;
+}
+
+
+.botoes__ancora {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1em 2.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
