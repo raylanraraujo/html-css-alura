@@ -1,6 +1,39 @@
 .por-dentro {
     background-color: var(--branco);
-    
-
+    padding: 1em;
 }
 
+.por-dentro__titulo , .por-dentro__texto{
+    background: var(--azul-degrade); /*para colocar a cor de fundo para o degrade inserido*/
+    -webkit-background-clip: text; /*só para ter a certeza de que vai funcionar em todos os naavegadores*/
+    -webkit-text-fill-color: transparent; /*só para ter a certeza de que vai funcionar em todos os naavegadores*/
+    background-clip: text; /*pega a cor do background e coloca na cor do texto*/
+}
+.por-dentro__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+.por-dentro__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.por-dentro__pesquisa {
+    padding: 1em;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    width: 90vw;
+    margin-bottom: 0.5em;
+    color: var(--azul);
+}
+
+.por-dentro__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    background: url(../imagens/Email.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+    font-size: 16px;
+    padding-left: 3em;
+}
