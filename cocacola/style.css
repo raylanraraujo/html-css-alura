@@ -3,6 +3,7 @@
 @import url("styles/saiba.css");
 @import url("styles/ofertas.css");
 @import url("styles/coke-sem-acucar.css");
+@import url("styles/localizacao.css");
 
 :root {
     --cor-de-fundo: #FFFFFF;
