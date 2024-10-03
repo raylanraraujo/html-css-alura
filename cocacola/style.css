@@ -4,6 +4,7 @@
 @import url("styles/ofertas.css");
 @import url("styles/coke-sem-acucar.css");
 @import url("styles/localizacao.css");
+@import url("styles/resgate.css");
 
 :root {
     --cor-de-fundo: #FFFFFF;
