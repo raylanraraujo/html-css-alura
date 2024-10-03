@@ -16,6 +16,7 @@
 
 hr {
     margin-bottom: 1.5rem;
+    border: 1px solid var(--cor-de-fundo);
 }
 .rodape__contato {
     display: flex;
@@ -64,34 +65,22 @@ hr {
     line-height: 0.7rem;
 }
 
-
-
-/* .rodape__item__navegacao {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-.navegacao__botao {
-    /* display: none; */
-    position: relative;
-}
-
-.navegacao__arrow {
-    background-image: url(../assets/down-arrow.png);
-    height: 10px;
-    width: 16px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0.5rem;
-}
+/*________________________________________________________________________________*/
 
 .div-navegacao{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+.navegacao__arrow {
+    background-image: url(../assets/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10px;
+    width: 16px;
+    display: inline-block;
 }
 
 .navegacao__lista {
@@ -103,21 +92,25 @@ hr {
     background-color: var(--fundo-menu);
     padding: 1rem;
     border-radius: 5px 5px 5px 5px;
+    z-index: 2;
 }
 
-.navegacao__lista__item {
-    /* margin: 0.5rem 0rem 0rem 0rem; */
-    padding: 0.5rem 0;
-}
-
-.navegacao__botao:checked ~ .navegacao__lista {
+.navegacao__botao:checked~.navegacao__lista {
     display: block;
   }
 
-  .navegacao__lista__link {
+.navegacao__botao {
+    display: none;
+}
+
+.lista__item {
+    padding: 0.5rem 0;
+}
+
+.lista__link {
     color: var(--cor-de-fundo);
     text-decoration: none;
-  }
+}
 
 
 .rodape__item__link {
@@ -131,4 +124,30 @@ hr {
     text-align: center;
 }
 
+/*________________________________________________________________________________*/
 
+.div-institucional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.institucional__lista {
+    display: none;
+    position: absolute;
+    width: 145px;
+    top: 125%;
+    left: 54%;
+    text-align: right;
+    background-color: var(--fundo-menu);
+    padding: 1rem;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.institu {
+    display: none;
+}
+.institu:checked~.institucional__lista {
+    display: block;
+  }
