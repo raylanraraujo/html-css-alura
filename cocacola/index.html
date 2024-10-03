@@ -16,9 +16,11 @@
             <img src="assets/logo.svg" alt="Logo Coca-Cola" class="cabecalho__imagem">
 
             <input type="checkbox" id="menu" class="container__botao">
+
             <label for="menu">
                 <span class="cabecalho__menu-hamburguer cabecalho__imagem"></span>
             </label>
+
             <ul class="lista-menu">
                 <li class="lista-menu__item login" >
                     <a href="#" class="lista-menu__link">Entrar!</a>
@@ -30,16 +32,16 @@
                     <a href="#" class="lista-menu__link link">Promoçoes</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link link">Dá o play</a>
+                    <a href="https://www.coca-cola.com.br/daoplay/filmes" class="lista-menu__link link" target="_blank">Dá o play</a>
                 </li>
                 <li class="lista-menu__item">
                     <a href="#" class="lista-menu__link link">Retornáveis</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link link">Loja</a>
+                    <a href="https://www.coca-cola.com.br/loja" class="lista-menu__link link" target="_blank">Loja</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link link">Ajuda</a>
+                    <a href="https://www.coca-cola.com.br/faq" class="lista-menu__link link" target="_blank">Ajuda</a>
                 </li>
             </ul>
         </div>
@@ -102,13 +104,31 @@
         <img src="assets/logo.svg" alt="logo da coca-cola" class="rodape__logo">
 
         <ul class="rodape__lista">
-            <li class="rodape__item">Navegue por aqui</li>
+            <li class="rodape__item__navegacao">
+                <div class="div-navegacao">
+                    <p>Navegue por aqui</p>
+
+                    
+                    <input type="checkbox" id="navegacao" class="navegacao__botao">
+                    
+                    <lable for="navegacao">
+                        <span class="navegacao__arrow"></span>
+                    </lable>
+                    <ul class="navegacao__lista">
+                        <li class="navegacao__lista__item">Ofertas</li>
+                        <li class="navegacao__lista__item">Promoções</li>
+                        <li class="navegacao__lista__item">Dá o play</li>
+                        <li class="navegacao__lista__item">Retornáveis</li>
+                        <li class="navegacao__lista__item"><a href="https://www.coca-cola.com.br/loja" target="_blank" class="navegacao__lista__link">Loja</a></li>
+                    </ul>
+                </div>
+            </li>
             <hr>
             <li class="rodape__item">Institucional</li>
             <hr>
-            <li class="rodape__item">Regulamento</li>
+            <li class="rodape__item"><a href="https://www.coca-cola.com.br/regulamento" class="rodape__item__link" target="_blank">Regulamento</a></li>
             <hr>
-            <li class="rodape__item">Perguntas Frequentes</li>
+            <li class="rodape__item"><a href="https://www.coca-cola.com.br/faq" class="rodape__item__link" target="_blank">Perguntas Frequentes</a></li>
             <hr>
         </ul>
 
@@ -122,7 +142,7 @@
             <div class="contato__redes-socias">
                 <a href="https://api.whatsapp.com/send?phone=552140022121&text=Oi%2C%20Kora!" target="_blank" class="contato__redes-socias__link">
                     <p>Fale com a gente! </p>
-                    <img src="assets/icon-whatsapp16.png" alt="">
+                    <img src="assets/icon-whatsapp16.png" alt="icone whatsapp">
                 </a>
 
                 <div class="contato__redes-sociais__icons">

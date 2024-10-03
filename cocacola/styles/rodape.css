@@ -51,11 +51,6 @@ hr {
     margin-bottom: 0.5rem;
 }
 
-.teste {
- background-image: url(../assets/icon-whatsapp.png);
- height: 24px;
- width: 24px;
-}
 .contato__redes-sociais__icons {
     display: flex;
     gap: 18px;
@@ -68,9 +63,72 @@ hr {
     margin: 0 1.5rem 2rem 1.5rem;
     line-height: 0.7rem;
 }
+
+
+
+/* .rodape__item__navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.navegacao__botao {
+    /* display: none; */
+    position: relative;
+}
+
+.navegacao__arrow {
+    background-image: url(../assets/down-arrow.png);
+    height: 10px;
+    width: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5rem;
+}
+
+.div-navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navegacao__lista {
+    display: none;
+    position: absolute;
+    top: 125%;
+    left: 68%;
+    text-align: right;
+    background-color: var(--fundo-menu);
+    padding: 1rem;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.navegacao__lista__item {
+    /* margin: 0.5rem 0rem 0rem 0rem; */
+    padding: 0.5rem 0;
+}
+
+.navegacao__botao:checked ~ .navegacao__lista {
+    display: block;
+  }
+
+  .navegacao__lista__link {
+    color: var(--cor-de-fundo);
+    text-decoration: none;
+  }
+
+
+.rodape__item__link {
+    color: var(--cor-de-fundo);
+    text-decoration: none;
+}
 .rodape__copy {
     background-color: var(--copy);
     padding: 1.5rem;
     font-size: 0.5rem;
     text-align: center;
 }
+
+
