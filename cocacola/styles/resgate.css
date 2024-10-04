@@ -1,6 +1,6 @@
 .resgate {
     background-image: url(../assets/ticket.png);
-    background-size: cover;
+    background-size: contain;
     height: 25vh;
     /* width: 100vw; */
     background-repeat: no-repeat;
