@@ -19,7 +19,7 @@ Typical Device Breakpoints
 
 
 /*para iphone SE*/
-@media screen and (max-width: 390px){
+@media screen and (max-width: 375px){
 
     /*studio*/
     .coke-studio {
