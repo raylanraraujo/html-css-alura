@@ -63,6 +63,20 @@ Typical Device Breakpoints
 
     /*coke-sem-acucar*/
 
+    /*localizacao*/
+    .localizacao {
+        margin: 1rem 1rem 2rem 1rem;
+    }
+
+    .localizacao__titulo {
+        margin: 1.7rem;
+        top: 62%;
+    }
+
+    .localizacao__link {
+        left: 21%;
+    }
+
 
 
 }
