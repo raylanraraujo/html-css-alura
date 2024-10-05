@@ -77,34 +77,24 @@ Typical Device Breakpoints
         left: 21%;
     }
 
-
-
-}
-
-
-
-
-
-
-
-
-/*para iphone 12pro*/
-@media screen and (max-width: 390px){
+    /*resgate*/
     .resgate {
+        height: 33vh;
         margin: 0 0.5rem;
     }
-    
-    .resgate__conteudo {
-        margin: 0.2rem 3rem;
-    }
 
-    .resgate__texto {
-        margin: 0.5rem 0 1rem 0rem;
+    .resgate__conteudo {
+        margin: 0.5rem 3rem;
     }
 
     .resgate__titulo {
+        padding-right: 8.5rem;
         font-size: 1.3rem;
         margin: 0rem;
     }
 
+    .resgate__texto {
+        margin: 0.5rem 0rem 1rem 0rem;
+        padding-right: 8rem;
+    }
 }
