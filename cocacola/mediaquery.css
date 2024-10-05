@@ -20,9 +20,10 @@ Typical Device Breakpoints
 
 /*para iphone SE*/
 @media screen and (max-width: 390px){
+    
+    /*studio*/
     .coke-studio {
         height: 560px;
-       
     }
 
     .coke-studio__conteudo {
@@ -39,6 +40,20 @@ Typical Device Breakpoints
     .seta {
         margin: 4%;
     }
+
+    /*saiba mais*/
+    .saiba-mais {
+        margin: 1rem 1rem 10rem 1rem;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 2.1rem;
+        line-height: 2.9rem;
+    }
+
+  
+
+
 }
 
 
