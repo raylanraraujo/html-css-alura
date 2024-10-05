@@ -18,7 +18,8 @@ Typical Device Breakpoints
 */
 
 
-/*para iphone SE*/
+/*______________________para iphone SE______________________*/
+
 @media screen and (max-width: 375px){
 
     /*studio*/
@@ -43,7 +44,7 @@ Typical Device Breakpoints
 
     /*saiba mais*/
     .saiba-mais {
-        margin: 1rem 1rem 9.5rem 1rem;
+        margin: 2rem 1rem 9.5rem 1rem;
     }
 
     .saiba-mais__titulo {
@@ -53,7 +54,7 @@ Typical Device Breakpoints
 
     /*ofertas*/
     .ofertas {
-        top: 1020px;
+        top: 1037px;
         margin: 1rem ;
     }
 
@@ -121,6 +122,10 @@ Typical Device Breakpoints
         margin: 0 1rem;
     }
 
+    .item__texto {
+        font-size: 1rem;
+    }
+
     .contato__expediente {
         margin-left: 0rem;
     }
@@ -135,5 +140,12 @@ Typical Device Breakpoints
 
     .institucional__lista {
         left: 49%;
+        font-size: 0.9rem;
     }
+}
+
+/*______________________para iphone XR______________________*/
+
+@media screen and (max-width: 375px){
+ 
 }

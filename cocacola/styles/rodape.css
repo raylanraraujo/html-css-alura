@@ -95,6 +95,8 @@ hr {
     z-index: 2;
 }
 
+
+
 .navegacao__botao:checked~.navegacao__lista {
     display: block;
   }
