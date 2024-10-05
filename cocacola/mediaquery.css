@@ -135,7 +135,8 @@ Typical Device Breakpoints
     }
 
     .navegacao__lista {
-        left: 64%;
+    left: 66%;
+    font-size: 0.9rem;
     }
 
     .institucional__lista {
@@ -146,6 +147,17 @@ Typical Device Breakpoints
 
 /*______________________para iphone XR______________________*/
 
-@media screen and (max-width: 375px){
- 
+@media screen and (min-width:376px) and (max-width: 414px){
+    .resgate {
+    margin:  0 1rem;
+    background-size: cover;
+    }
+
+    .navegacao__lista {
+    left: 66%;
+    }
+
+    .institucional__lista {
+    left: 52%;
+    }
 }
