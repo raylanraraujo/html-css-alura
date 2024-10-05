@@ -128,4 +128,12 @@ Typical Device Breakpoints
     .rodape__asterisco {
         margin: 0 1rem 2rem 1rem;
     }
+
+    .navegacao__lista {
+        left: 64%;
+    }
+
+    .institucional__lista {
+        left: 49%;
+    }
 }
