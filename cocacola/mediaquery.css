@@ -111,4 +111,21 @@ Typical Device Breakpoints
     .cadastro__link {
         left: 24.5%;
     }
+
+    /*rodape*/
+    .rodape__logo {
+        margin: 3rem 1rem;
+    }
+
+    .rodape__lista {
+        margin: 0 1rem;
+    }
+
+    .contato__expediente {
+        margin-left: 0rem;
+    }
+
+    .rodape__asterisco {
+        margin: 0 1rem 2rem 1rem;
+    }
 }
