@@ -147,7 +147,7 @@ Typical Device Breakpoints
 
 /*______________________para iphone XR______________________*/
 
-@media screen and (min-width:376px) and (max-width: 414px){
+@media screen and (min-width:414px) {
     .resgate {
     margin:  0 1rem;
     background-size: cover;
@@ -159,5 +159,12 @@ Typical Device Breakpoints
 
     .institucional__lista {
     left: 52%;
+    }
+}
+
+/*______________________para iphone 12 pro______________________*/
+@media screen and (min-width:390px) and (max-width: 413px){
+    .ofertas {
+        top: 1198px;
     }
 }
