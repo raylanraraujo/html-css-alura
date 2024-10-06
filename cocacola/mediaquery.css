@@ -43,7 +43,7 @@ Typical Device Breakpoints
     .seta {
         background-size: contain;
         padding: 1.5rem;
-        margin: 4%;
+        margin: 6%;
     }
 
     /*saiba mais*/
@@ -189,7 +189,7 @@ Typical Device Breakpoints
 }
 
 /*______________________para iphone 12 pro______________________*/
-@media screen and (min-width:390px) and (max-width: 413px){
+@media screen and (min-width:389px) and (max-width: 413px){
 
     .coke-studio {
         height: 607px;
@@ -205,7 +205,8 @@ Typical Device Breakpoints
     }
 
     .seta {
-        margin: 9%;
+        margin: 14%;
+        
     }
     
     .saiba-mais {
