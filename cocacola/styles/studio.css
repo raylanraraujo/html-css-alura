@@ -32,6 +32,9 @@
     width: 64.10%;
 }
 
+.coke-studio__saiba-mais__link{
+    display: none;
+}
 .seta {
     background-image: url(../assets/seta.png);
     background-repeat: no-repeat;
