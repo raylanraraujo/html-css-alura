@@ -250,8 +250,32 @@ Typical Device Breakpoints
     .institucional__lista {
         left: 49%;
         }
+    }
 
 /*______________________DESKTOP 1440______________________*/
-    @media screen and (min-width 1440px)
+@media screen and (min-width: 1440px) {
+    .container {
+        justify-content: flex-start;
+        /* gap: 6rem; */
+    }
 
+    .cabecalho__imagem {
+        padding: 2.125em 6.25rem 2.125rem 13.5rem;
+    } 
+
+    .header__nav {
+        color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: flex-start;
+        gap: 3.75rem;
+    }
+
+    .header__link__entrar {
+    margin-left: 2.5rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+  
 }
