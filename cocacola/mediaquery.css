@@ -151,8 +151,30 @@ Typical Device Breakpoints
 
 /*______________________para iphone XR______________________*/
 
-@media screen and (min-width:414px) {
-    .resgate {
+@media screen and (min-width:414px) and (max-width: 429px){
+    .coke-studio {
+        height: 645px;
+    }
+
+    .coke-studio__conteudo {
+        padding-top: 21rem;
+    }
+
+    .coke-studio__titulo {
+        margin-bottom: 1.5rem;
+        font-size: 2.3rem;
+        width: 70%;
+    }
+
+    .seta {
+        margin: 14%;
+    }
+
+    .ofertas {
+        top: 1124px;
+    }
+
+    .resgatpe {
     margin:  0 1rem;
     background-size: cover;
     }
