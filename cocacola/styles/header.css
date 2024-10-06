@@ -3,6 +3,25 @@
     position: relative;
 }
 
+.header__nav {
+    color: var(--cor-de-fundo);
+    display: flex;
+    display: none;
+}
+
+.header__link {
+    color: var(--cor-de-fundo);
+    text-decoration: none; 
+}
+
+.header__link__entrar {
+    color: var(--cor-de-fundo);
+    text-decoration: none;
+    background-color: var(--cor-button);
+    padding: 1rem 2.75rem;
+    border-radius: 100px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
