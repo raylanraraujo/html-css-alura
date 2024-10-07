@@ -357,23 +357,36 @@ Typical Device Breakpoints
         background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
         background-position: center left;
         background-position-x: 45%;
-        width: 720px;
+        width: 45rem;
         height: 960px;
     } 
 
     .saiba-mais__conteudo {
         width: 380px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
     .saiba-mais__titulo {
         font-size: 2.5rem;
+        
     }
 
     .saiba-mais__texto {
         font-size: 1.5rem;
+        margin: 0px 0px 0px 0px;
     }
 
     .saiba-mais__link {
         font-size: 1rem;
+        width: 280px;
+        padding: 1rem 0rem;
+        text-align: center;
+        
+    }
+
+    .saiba-mais__asterisco {
+        margin: 1rem 0px 0px;
     }
 }
