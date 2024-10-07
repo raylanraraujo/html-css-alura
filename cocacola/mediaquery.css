@@ -230,6 +230,10 @@ Typical Device Breakpoints
         top: 1130px;
     }
 
+    /* .coke-sem-acucar__imagem-desktop {
+        display: none;
+    } */
+
     .localizacao__titulo {
         margin: 1rem;
         top: 65%;
@@ -394,36 +398,49 @@ Typical Device Breakpoints
         margin: 1rem 0px 0px;
     }
 
-        /*__________________________ofertas__________________________*/
-        .ofertas {
+    /*__________________________ofertas__________________________*/
+    .ofertas {
         height: 395px;
         width: 1216px;
         top: 1710.5px;
         left: 112px;
         margin: 0;
         padding: 0;
-        }
+    }
 
-        .ofertas__conteudo{
-            height: 395px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 16px;
-        }
+    .ofertas__conteudo{
+        height: 395px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
 
-        .ofertas__titulo {
-            font-size: 3.5rem;
-            font-weight: 700;
-            width: 747px;
-        }
+    .ofertas__titulo {
+        font-size: 3.5rem;
+        font-weight: 700;
+        width: 747px;
+    }
 
-        .ofertas__link {
-            font-size: 1rem;
-            font-weight: 500;
-            width: 280px;
-            padding: 1.5rem 0rem;
-          
-        }
+    .ofertas__link {
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 1.5rem 0rem;
+        
+    }
+
+    /*__________________________coke-sem-acucar__________________________*/
+    .coke-sem-acucar{
+        height: 800px;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .coke-sem-acucar__imagem {
+        /* height: 0;
+        width: 0; */
+
+    }
 }
