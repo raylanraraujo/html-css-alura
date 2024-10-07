@@ -548,11 +548,14 @@ Typical Device Breakpoints
     .resgate {
         background-image: url(assets/ticket1.png);
         background-size: cover;
-        height: 510px;
+        height: 544px;
+        padding-top: 0rem;
+        z-index: 3;
     }
 
     /*__________________________cadastro__________________________*/
     .cadastro {
+       
         height: 1128px;
         background-image: url(assets/cadastre-se1.png);
         /* background-position: cover; */
@@ -563,6 +566,7 @@ Typical Device Breakpoints
         flex-direction: column;
         align-items: left;
         justify-content: center;
+        z-index: 2;
     }
 
     .cadastro__titulo {
