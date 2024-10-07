@@ -34,3 +34,7 @@
     /* width: 45%; */
     /*left: 25%; */
 }
+
+.coke-sem-acucar__imagem-desktop {
+    display: none;
+}

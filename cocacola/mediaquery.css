@@ -86,6 +86,10 @@ Typical Device Breakpoints
         left: 21%;
     }
 
+    .coke-sem-acucar__imagem-desktop {
+        display: none;
+    }
+
     /*resgate*/
     .resgate {
         height: 33vh;
@@ -182,6 +186,10 @@ Typical Device Breakpoints
         top: 1124px;
     }
 
+    .coke-sem-acucar__imagem-desktop {
+        display: none;
+    }
+
     .resgatpe {
     margin:  0 1rem;
     background-size: cover;
@@ -230,9 +238,9 @@ Typical Device Breakpoints
         top: 1130px;
     }
 
-    /* .coke-sem-acucar__imagem-desktop {
+    .coke-sem-acucar__imagem-desktop {
         display: none;
-    } */
+    }
 
     .localizacao__titulo {
         margin: 1rem;
