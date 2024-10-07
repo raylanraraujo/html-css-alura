@@ -442,13 +442,18 @@ Typical Device Breakpoints
     /*__________________________coke-sem-acucar__________________________*/
     .coke-sem-acucar{
         height: 800px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         padding: 0;
     }
 
-    .coke-sem-acucar__imagem {
-        /* height: 0;
-        width: 0; */
+    .coke-sem-acucar__imagem-mobile{
+        display: none;
+    }
 
+    .coke-sem-acucar__imagem-desktop{
+        display: block;
     }
 }
