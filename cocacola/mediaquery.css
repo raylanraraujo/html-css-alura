@@ -465,6 +465,7 @@ Typical Device Breakpoints
         letter-spacing: 12px;
         text-transform: uppercase;
         margin-bottom: 2rem;
+        margin-top: 8rem;
     }
 
     .coke-sem-acucar__titulo {
@@ -474,5 +475,19 @@ Typical Device Breakpoints
 
     .coke-sem-acucar__texto {
         font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__saiba-mais {
+        display: block;
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 1.5rem 0rem;
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
     }
 }
