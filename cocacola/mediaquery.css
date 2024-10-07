@@ -383,10 +383,43 @@ Typical Device Breakpoints
         width: 280px;
         padding: 1rem 0rem;
         text-align: center;
+        font-weight: 500;
         
     }
 
     .saiba-mais__asterisco {
         margin: 1rem 0px 0px;
     }
+
+        /*__________________________ofertas__________________________*/
+        .ofertas {
+        height: 395px;
+        width: 1216px;
+        top: 1710.5px;
+        left: 112px;
+        margin: 0;
+        padding: 0;
+        }
+
+        .ofertas__conteudo{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: flex-end; */
+            align-items: center;
+            gap: 39px;
+        }
+
+        .ofertas__titulo {
+            font-size: 3.5rem;
+            font-weight: 700;
+            width: 747px;
+        }
+
+        .ofertas__link {
+            font-size: 1rem;
+            font-weight: 500;
+            width: 280px;
+            padding: 1rem 0rem;
+          
+        }
 }
