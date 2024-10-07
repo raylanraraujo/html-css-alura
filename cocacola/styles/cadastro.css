@@ -7,6 +7,7 @@
     border-radius: 16px;
     text-align: center;
     position: relative;
+    z-index: 2;
 }
 
 .cadastro__titulo {

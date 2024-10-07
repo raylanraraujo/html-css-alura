@@ -545,6 +545,11 @@ Typical Device Breakpoints
 
     /*__________________________resgate__________________________*/
 
+    .resgate {
+        background-image: url(assets/ticket1.png);
+        background-size: cover;
+        height: 510px;
+    }
 
     /*__________________________cadastro__________________________*/
     .cadastro {

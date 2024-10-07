@@ -11,7 +11,7 @@
     text-align: center;
     color: var(--cor-de-fundo);
     position: relative;
-    
+    z-index: 1;
 }
 
 .localizaca__texto-menor{
