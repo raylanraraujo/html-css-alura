@@ -51,6 +51,10 @@ Typical Device Breakpoints
         margin: 2rem 1rem 9.5rem 1rem;
     }
 
+    .saiba-mais__imagem {
+        display: none;
+    }
+
     .saiba-mais__titulo {
         font-size: 2.1rem;
         line-height: 2.9rem;
@@ -170,6 +174,10 @@ Typical Device Breakpoints
         margin: 14%;
     }
 
+    .saiba-mais__imagem {
+        display: none;
+    }
+
     .ofertas {
         top: 1124px;
     }
@@ -211,6 +219,10 @@ Typical Device Breakpoints
     
     .saiba-mais {
         /* margin: 2rem 1.5rem 8rem 1.5rem; */
+    }
+
+    .saiba-mais__imagem {
+        display: none;
     }
    
 
@@ -282,6 +294,7 @@ Typical Device Breakpoints
     /*__________________________studio__________________________*/
 
     .coke-studio{
+        position: relative;
         height: 900px;
     }
 
@@ -322,5 +335,45 @@ Typical Device Breakpoints
         margin-top: 14.8%;
     }
 
+    
 
+    /*__________________________saiba mais__________________________*/
+    .saiba-mais {
+        height: 960px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin: -45px 0 0 0;
+        padding: 0rem;
+        border: 0px solid black;
+        z-index: 1;
+        
     }
+
+    .saiba-mais__imagem {
+        display: block;
+        background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
+        background-position: center left;
+        background-position-x: 45%;
+        width: 720px;
+        height: 960px;
+    } 
+
+    .saiba-mais__conteudo {
+        width: 380px;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 2.5rem;
+    }
+
+    .saiba-mais__texto {
+        font-size: 1.5rem;
+    }
+
+    .saiba-mais__link {
+        font-size: 1rem;
+    }
+}
