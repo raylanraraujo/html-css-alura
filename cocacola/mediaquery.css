@@ -498,7 +498,7 @@ Typical Device Breakpoints
 
     .localizacao {
         height: 993px;
-        margin: 0rem;
+        margin: -1px 0px 0px 0px;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
@@ -547,10 +547,34 @@ Typical Device Breakpoints
 
     .resgate {
         background-image: url(assets/ticket1.png);
-        background-size: cover;
+        background-size: contain;
         height: 544px;
         padding-top: 0rem;
+        margin: -258px 100px 0px 100px;
         z-index: 3;
+    }
+
+    .resgate__conteudo {
+        position: relative;
+        margin: 0 0rem;
+        top: 108px;
+        left: 104px;
+    }
+
+    .resgate__titulo {
+        width: 620px;
+        font-size: 3.5rem;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0rem;
+        margin: 0rem 0rem 2rem 0rem;
+    }
+
+    .resgate__texto {
+        width: 320px;
+        font-size: 1rem;
+        padding-right: 10rem;
+        margin: 0.5rem 0 3rem 0.5rem;
     }
 
     /*__________________________cadastro__________________________*/
@@ -559,7 +583,7 @@ Typical Device Breakpoints
         height: 1128px;
         background-image: url(assets/cadastre-se1.png);
         /* background-position: cover; */
-        margin: 0rem;
+        margin: -296px 0px 0px 0px;
         border-radius: 0px;
         background-position: 45% 5%;
         display: flex;
@@ -576,7 +600,7 @@ Typical Device Breakpoints
         text-align: left;
         position: relative;
         top: 0%;
-        left: 60%;
+        left: 61%;
         margin: 0rem 0rem 2rem 0rem;
     }
     .cadastro__link {
@@ -591,7 +615,18 @@ Typical Device Breakpoints
         left: 0%;
         position: relative;
         top: 0%;
-        left: 60%;
+        left: 61%;
     }
 
+    .resgate__link {
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
+    }
 }
