@@ -459,6 +459,7 @@ Typical Device Breakpoints
     .coke-sem-acucar__imagem-desktop{
         display: block;
         margin-top: 24rem;
+        margin-left: -2rem;
     }
 
     .coke-sem-acucar__texto-menor {
@@ -542,8 +543,10 @@ Typical Device Breakpoints
         top: 0%;
     }
 
-    /*__________________________cadastro__________________________*/
+    /*__________________________resgate__________________________*/
 
+
+    /*__________________________cadastro__________________________*/
     .cadastro {
         height: 1128px;
         background-image: url(assets/cadastre-se1.png);
