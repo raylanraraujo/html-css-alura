@@ -16,6 +16,10 @@
     color: var(--cor-de-fundo);
 }
 
+.coke-sem-acucar__texto-menor {
+    display: none;
+}
+
 .coke-sem-acucar__titulo {
     font-size: 2.5rem;
     /* font-size: 9vw; */
