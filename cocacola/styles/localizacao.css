@@ -1,5 +1,5 @@
 .localizacao {
-    background-image: url(../assets/brinde.png);
+    background-image: url(../assets/brinde1.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14,12 +14,19 @@
     
 }
 
+.localizaca__texto-menor{
+    display: none;
+}
+
 .localizacao__titulo {
+    width: 267px;
     font-size: 1.4rem;
     font-weight: 600;
-    margin: 2rem;
     position: absolute;
     top: 60%;
+    margin: 2rem 3.5rem;
+    /* margin-top: 2rem;
+    margin-left: 3.5rem; */
 }
 
 .localizacao__link {
@@ -30,7 +37,8 @@
     padding: 0.7rem 2rem;
     border-radius: 100px;
     position: absolute;
-    left: 25%;
+    left: 23.5%;
     top: 96%;
 }
+
 
