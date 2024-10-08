@@ -802,4 +802,48 @@ Typical Device Breakpoints
     .cabecalho__menu-hamburguer {
         display: none;
     } 
+
+    /*__________________studio__________________*/
+
+    .coke-studio{
+        position: relative;
+        height: 808px;
+    }
+
+    .coke-studio__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        margin-left: 2rem;
+        padding-top: 20.25rem;
+    }
+
+    .coke-studio__titulo {
+        font-size: 3.5rem;
+        width: 524px;
+        margin-bottom: 0;
+    }
+
+    .coke-studio__texto {
+    width: 384px;
+    }
+
+    .coke-studio__saiba-mais__link {
+        display: block;
+        width: 240px;
+        text-align: center;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: var(--cor-button);
+        padding: 1.2rem 1rem;
+        margin-top: 1rem;
+        border-radius: 100px;
+    }
+
+    .seta {
+        background-image: url(assets/seta1png.png);
+        background-size: contain;
+        margin-top: 14.8%;
+    }
 }
