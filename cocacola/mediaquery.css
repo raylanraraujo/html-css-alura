@@ -283,11 +283,11 @@ Typical Device Breakpoints
     .institucional__lista {
         left: 49%;
         }
-    }
 
     .rodape-desk {
-        display: none;
+      display: none;
     }
+}
 
 /*______________________DESKTOP 1440______________________*/
 @media screen and (min-width: 1400px) {
