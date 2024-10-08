@@ -776,7 +776,7 @@ Typical Device Breakpoints
 }
 
 /*______________________tablet protrait______________________*/
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 750px) and (max-width: 992px){
 
     /*__________________header__________________*/
     .container {
@@ -807,25 +807,26 @@ Typical Device Breakpoints
 
     .coke-studio{
         position: relative;
-        height: 808px;
+        height: 650px;
     }
 
     .coke-studio__conteudo {
         display: flex;
         flex-direction: column;
-        gap: 1.875rem;
+        gap: 1rem;
         margin-left: 2rem;
-        padding-top: 20.25rem;
+        padding-top: 16rem;
     }
 
     .coke-studio__titulo {
-        font-size: 3.5rem;
+        font-size: 3rem;
         width: 524px;
         margin-bottom: 0;
     }
 
     .coke-studio__texto {
-    width: 384px;
+    width: 300px;
+    font-size: 0.9rem;
     }
 
     .coke-studio__saiba-mais__link {
@@ -844,6 +845,67 @@ Typical Device Breakpoints
     .seta {
         background-image: url(assets/seta1png.png);
         background-size: contain;
-        margin-top: 14.8%;
+        margin-top: 11%;
     }
+
+    /*__________________saiba mais__________________*/
+    .saiba-mais {
+        height: 960px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 2rem;
+        margin: -45px 0 0 0;
+        padding: 0rem;
+        border: 0px solid black;
+        z-index: 1;
+
+        
+    }
+
+    .saiba-mais__imagem {
+        display: block;
+        background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
+        background-position: center left;
+        background-size: cover;
+        background-position-x: 40%;
+        width: 45rem;
+        height: 585px;
+        width: 385px;
+    } 
+
+    .saiba-mais__conteudo {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        margin-top: 95px;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 2rem;
+        width: 290px;  
+    }
+
+    .saiba-mais__texto {
+        width: 290px;
+        font-size: 1rem;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .saiba-mais__link {
+        font-size: 1rem;
+        width: 210px;
+        padding: 1rem 0rem;
+        text-align: center;
+        font-weight: 500;
+        
+    }
+
+    .saiba-mais__asterisco {
+        margin: 1rem 0px 0px;
+    }
+
 }
