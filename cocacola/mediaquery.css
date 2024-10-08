@@ -155,6 +155,10 @@ Typical Device Breakpoints
         left: 49%;
         font-size: 0.9rem;
     }
+
+    .rodape-desk {
+        display: none;
+    }
 }
 
 /*______________________para iphone XR______________________*/
@@ -201,6 +205,10 @@ Typical Device Breakpoints
 
     .institucional__lista {
     left: 52%;
+    }
+
+    .rodape-desk {
+        display: none;
     }
 }
 
@@ -275,6 +283,10 @@ Typical Device Breakpoints
     .institucional__lista {
         left: 49%;
         }
+    }
+
+    .rodape-desk {
+        display: none;
     }
 
 /*______________________DESKTOP 1440______________________*/
@@ -631,5 +643,137 @@ Typical Device Breakpoints
         left: 61%;
     }
 
+    /*__________________________rodape__________________________*/
+    .rodape-mobile {
+        display: none;
+    }
 
+    .rodape-desk {
+        display: block;
+    }
+
+    .rodape-desk__conteudo{
+        background-color: #0B0B0B;
+        height: 320px;
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        gap: 66px;
+        padding-top: 82px;
+        padding-left: 168px;
+        padding-right: 179px;
+    }
+
+    .rodape-desk__logo {
+        width: 174px;
+    }
+    
+    .rodape-desk__item-lista {
+        font-size: 0.75rem;
+        line-height: 30px;
+        list-style-type: none;
+    }
+
+    .rodape-desk__buttom {
+        display: block;
+    }
+
+    .rodape-desk__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .rodape-desk__buttom {
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 1rem 2rem;
+    }
+
+    .rodape-desk__buttom:hover {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+
+    .whatsapp {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* .rodape-desk__cadastro {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+    }
+
+    .rodape-desk__cadastro:hover {
+        background-color: #0B0B0B;
+        color: white;
+        transition: 0.5s;
+    } */
+
+
+    .rodape-desk__expediente-social {
+        height: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .rodape-desk__expediente {
+        font-size: 0.75rem;
+    }
+
+    .rodape-desk__expediente__lista {
+        line-height: 30px;
+    }
+
+    .rodape-desk__expediente__item {
+        font-size: 0.75rem;
+        list-style-type: none;
+    }
+
+    .rodape-desk__item-lista-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .rodape-desk__item-lista-link:hover {
+        color: #F40000;
+        /* font-weight: 700; */
+    }
+
+    .rodape-desk__redes-sociais__icons {
+        width: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+
+    .rodape-desk__asterisco {
+        background-color: #0B0B0B;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        padding: 0px 184px 19px 184px;
+    }
+
+    .rodape-desk__copy {
+        height: 72px;
+        background-color: #1C1C1C;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
