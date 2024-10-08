@@ -8,10 +8,14 @@
         *{
             margin: 0;
             padding: 0;
+            font-family: 'Poppins';
         }
-        footer{
-            height: 509px;
+
+        footer {
             background-color: #0B0B0B;
+        }
+        .rodape-desk__conteudo{
+            height: 320px;
             color: white;
             display: flex;
             align-items: flex-start;
@@ -27,6 +31,7 @@
         
         .rodape-desk__item-lista {
             font-size: 0.75rem;
+            line-height: 30px;
             list-style-type: none;
         }
 
@@ -57,7 +62,7 @@
         }
 
         .rodape-desk__expediente-social {
-            height: 164px;
+            height: 215px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -66,6 +71,10 @@
 
         .rodape-desk__expediente {
             font-size: 0.75rem;
+        }
+
+        .rodape-desk__expediente__lista {
+            line-height: 30px;
         }
 
         .rodape-desk__expediente__item {
@@ -80,61 +89,84 @@
             gap: 28px;
         }
 
+        .rodape-desk__asterisco {
+            color: white;
+            font-size: 0.625rem;
+            text-align: center;
+            padding: 0px 184px 19px 184px;
+        }
+
+        .rodape-desk__copy {
+            height: 72px;
+            background-color: #1C1C1C;
+            color: white;
+            font-size: 0.625rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
 
     </style>
 </head>
 <body>
     
     <footer>
-        <img src="assets/logo.svg" alt="logo da coca-cola" class="rodape-desk__logo">
-
-        <div class="rodape-desk__navegue">
-            <ul class="rodape-desk__navegue__lista">
-                <li class="rodape-desk__item-lista">Navegue por aqui</li>
-                <li class="rodape-desk__item-lista">Ofertas</li>
-                <li class="rodape-desk__item-lista">Garrafa virtual</li>
-                <li class="rodape-desk__item-lista">Retornáveis</li>
-                <li class="rodape-desk__item-lista">Perguntas frequentes</li>
-                <li class="rodape-desk__item-lista">Dá o play</li>
-                <li class="rodape-desk__item-lista">Final mágica (Ifood)</li>
-                <li class="rodape-desk__item-lista">Rumo à final (Subway)</li>
-            </ul>
-        </div>
-
-        <div class="rodape-desk__institucional">
-            <ul class="rodape-desk__institucional__lista">
-                <li class="rodape-desk__item-lista">Institucional</li>
-                <li class="rodape-desk__item-lista">Coca-Cola Brasil</li>
-                <li class="rodape-desk__item-lista">Trabalhe conosco</li>
-                <li class="rodape-desk__item-lista">Termos de uso</li>
-                <li class="rodape-desk__item-lista">Privacidade Investidores</li>
-            </ul>
-        </div>
-
-        <div class="rodape-desk__buttons">
-            <a href="https://api.whatsapp.com/send?phone=552140022121&text=Oi%2C%20Kora!" target="_blank" class="rodape-desk__buttom whatsapp">
-                <p>Fale com a gente! </p>
-                <img src="assets/icon-whatsapp16.png" alt="icone whatsapp">
-            </a>
-            <a href="#" class="rodape-desk__buttom">Cadastre-se</a>
-            <a href="#" class="rodape-desk__buttom">Regulamento</a>
-        </div>
-
-        <div class="rodape-desk__expediente-social">
-            <div class="rodape-desk__expediente">
-                <ul class="rodape-desk__expediente__lista">
-                    <li class="rodape-desk__expediente__item">(21) 4002-2121</li>
-                    <li class="rodape-desk__expediente__item">Segunda a Sexta-feira</li>
-                    <li class="rodape-desk__expediente__item">9h às 18h</li>
+        <div class="rodape-desk__conteudo">
+            <img src="assets/logo.svg" alt="logo da coca-cola" class="rodape-desk__logo">
+            <div class="rodape-desk__navegue">
+                <ul class="rodape-desk__navegue__lista">
+                    <li class="rodape-desk__item-lista">Navegue por aqui</li>
+                    <li class="rodape-desk__item-lista">Ofertas</li>
+                    <li class="rodape-desk__item-lista">Garrafa virtual</li>
+                    <li class="rodape-desk__item-lista">Retornáveis</li>
+                    <li class="rodape-desk__item-lista">Perguntas frequentes</li>
+                    <li class="rodape-desk__item-lista">Dá o play</li>
+                    <li class="rodape-desk__item-lista">Final mágica (Ifood)</li>
+                    <li class="rodape-desk__item-lista">Rumo à final (Subway)</li>
                 </ul>
             </div>
-
-            <div class="rodape-desk__redes-sociais__icons">
-                <a href="https://www.instagram.com/cocacola_br/" target="_blank"><img src="assets/icon-instagram.png" alt="icone instagram" class="rede-social__icon"></a>
-                <a href="https://twitter.com/cocacola_br/" target="_blank"><img src="assets/icon-x.png" alt="ícone X" class="rede-social__icon"></a>
-                <a href="https://www.facebook.com/cocacolabr/" target="_blank"><img src="assets/icon-facebook.png" alt="ícone facebook" class="rede-social__icon"></a>
-                <a href="https://www.youtube.com/cocacola" target="_blank"><img src="assets/icon-youtube.png" alt="ícone youtube" class="rede-social__icon"></a>
+            <div class="rodape-desk__institucional">
+                <ul class="rodape-desk__institucional__lista">
+                    <li class="rodape-desk__item-lista">Institucional</li>
+                    <li class="rodape-desk__item-lista">Coca-Cola Brasil</li>
+                    <li class="rodape-desk__item-lista">Trabalhe conosco</li>
+                    <li class="rodape-desk__item-lista">Termos de uso</li>
+                    <li class="rodape-desk__item-lista">Privacidade Investidores</li>
+                </ul>
             </div>
+            <div class="rodape-desk__buttons">
+                <a href="https://api.whatsapp.com/send?phone=552140022121&text=Oi%2C%20Kora!" target="_blank" class="rodape-desk__buttom whatsapp">
+                    <p>Fale com a gente! </p>
+                    <img src="assets/icon-whatsapp16.png" alt="icone whatsapp">
+                </a>
+                <a href="#" class="rodape-desk__buttom">Cadastre-se</a>
+                <a href="#" class="rodape-desk__buttom">Regulamento</a>
+            </div>
+            <div class="rodape-desk__expediente-social">
+                <div class="rodape-desk__expediente">
+                    <ul class="rodape-desk__expediente__lista">
+                        <li class="rodape-desk__expediente__item">(21) 4002-2121</li>
+                        <li class="rodape-desk__expediente__item">Segunda a Sexta-feira</li>
+                        <li class="rodape-desk__expediente__item">9h às 18h</li>
+                    </ul>
+                </div>
+                <div class="rodape-desk__redes-sociais__icons">
+                    <a href="https://www.instagram.com/cocacola_br/" target="_blank"><img src="assets/icon-instagram.png" alt="icone instagram" class="rede-social__icon"></a>
+                    <a href="https://twitter.com/cocacola_br/" target="_blank"><img src="assets/icon-x.png" alt="ícone X" class="rede-social__icon"></a>
+                    <a href="https://www.facebook.com/cocacolabr/" target="_blank"><img src="assets/icon-facebook.png" alt="ícone facebook" class="rede-social__icon"></a>
+                    <a href="https://www.youtube.com/cocacola" target="_blank"><img src="assets/icon-youtube.png" alt="ícone youtube" class="rede-social__icon"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape-desk__asterisco">
+            <p>Imagens meramente ilustrativas. É permitido um cadastro por CPF. Os itens, quantidades, prazos de validade e disponibilidade dos benefícios, pontos e/ou ofertas podem variar nas diversas regiões e poderão ser limitados por CPF, por dia, por período, por oferta, por Posto de Troca ou parceiro ou pela combinação de um ou mais destes parâmetros, a critério da COCA‑COLA. Os prazos de validade dos benefícios, pontos e/ou ofertas podem variar regionalmente de acordo com as regras de troca de cada ação. Atividades promocionais regularizadas em acordo com a Lei nº 5.768/1971 conterão Regulamentos específicos. Para mais informações, acesse o Regulamento e as Perguntas Frequentes. Canal para CRC 4002‑2121 (tarifa local).</p>
+        </div>
+
+        <div class="rodape-desk__copy">
+            <p>© 2024 The Coca‑Cola Company, all rights reserved</p>
         </div>
     </footer>
 </body>
