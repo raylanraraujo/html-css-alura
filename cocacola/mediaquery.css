@@ -774,3 +774,32 @@ Typical Device Breakpoints
         align-items: center;
     }
 }
+
+/*______________________tablet protrait______________________*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    /*__________________header__________________*/
+    .container {
+        justify-content: space-between;
+    }
+
+    .cabecalho__imagem {
+        padding: 1em 0rem 1.5rem 2.5rem;;
+    } 
+
+    .header__nav {
+        color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    .header__link__entrar {
+    margin-left: 0rem;
+    padding: 0.5rem 2rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    } 
+}
