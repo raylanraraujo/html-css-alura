@@ -855,8 +855,8 @@ Typical Device Breakpoints
         flex-direction: column;
         flex-wrap: wrap;
         /* justify-content: center; */
-        align-items: center;
-        gap: 2rem;
+        align-items: flex-start;
+        gap: 0rem;
         margin: -45px 0 0 0;
         padding: 0rem;
         border: 0px solid black;
@@ -871,17 +871,17 @@ Typical Device Breakpoints
         background-position: center left;
         background-size: cover;
         background-position-x: 40%;
-        width: 45rem;
         height: 585px;
         width: 385px;
     } 
 
     .saiba-mais__conteudo {
-        width: 380px;
+        width: 320px;
         display: flex;
         flex-direction: column;
         gap: 0rem;
         margin-top: 95px;
+        margin-left: 30px;
     }
 
     .saiba-mais__titulo {
@@ -908,4 +908,37 @@ Typical Device Breakpoints
         margin: 1rem 0px 0px;
     }
 
+    /*__________________ofertas__________________*/
+    .ofertas {
+        background-color: var(--preto-acinzentado);
+        color: var(--cor-de-fundo);
+        border-radius: 16px;
+        text-align: center;
+        padding: 2.5rem 1rem 2.5rem 1rem;
+        margin: 1.5rem 70px 1.5rem 70px ;
+        
+        position: absolute;
+        top: 1136px;
+        /* left: 50%; */
+        /* transform: translateX(-50%); Centraliza horizontalmente */
+        /* padding: 20px; */
+        z-index: 3;
+    }
+    
+    
+    
+    .ofertas__titulo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    
+    .ofertas__link {
+        color: var(--cor-de-fundo);
+        font-size: 0.75rem;
+        text-decoration: none;
+        background-color: var(--cor-button);
+        padding: 0.5rem 1rem;
+        border-radius: 100px;
+    }
 }
