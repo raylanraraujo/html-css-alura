@@ -19,7 +19,7 @@
             align-items: flex-start;
             gap: 66px;
             padding-top: 82px;
-            padding-left: 184px;
+            padding-left: 176px;
             padding-right: 179px;
         }
 
@@ -50,7 +50,14 @@
             text-align: center;
             border: 1px solid white;
             border-radius: 100px;
-            padding: 1rem 1.5rem;
+            padding: 1rem 2rem;
+        }
+
+        .rodape-desk__buttom:hover {
+            background-color: white;
+            color: #0B0B0B;
+            font-weight: 500;
+            transition: 0.5s;
         }
 
         .whatsapp {
@@ -58,6 +65,19 @@
             align-items: center;
             gap: 8px;
         }
+
+        /* .rodape-desk__cadastro {
+            background-color: white;
+            color: #0B0B0B;
+            font-weight: 500;
+        }
+
+        .rodape-desk__cadastro:hover {
+            background-color: #0B0B0B;
+            color: white;
+            transition: 0.5s;
+        } */
+
 
         .rodape-desk__expediente-social {
             height: 215px;
@@ -78,6 +98,16 @@
         .rodape-desk__expediente__item {
             font-size: 0.75rem;
             list-style-type: none;
+        }
+
+        .rodape-desk__item-lista-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .rodape-desk__item-lista-link:hover {
+            color: #F40000;
+            font-weight: 700;
         }
 
         .rodape-desk__redes-sociais__icons {
@@ -115,36 +145,37 @@
 
         <div class="rodape-desk__conteudo">
             <img src="assets/logo.svg" alt="logo da coca-cola" class="rodape-desk__logo">
+
             <div class="rodape-desk__navegue">
                 <ul class="rodape-desk__navegue__lista">
-                    <li class="rodape-desk__item-lista">Navegue por aqui</li>
-                    <li class="rodape-desk__item-lista">Ofertas</li>
-                    <li class="rodape-desk__item-lista">Garrafa virtual</li>
-                    <li class="rodape-desk__item-lista">Retornáveis</li>
-                    <li class="rodape-desk__item-lista">Perguntas frequentes</li>
-                    <li class="rodape-desk__item-lista">Dá o play</li>
-                    <li class="rodape-desk__item-lista">Final mágica (Ifood)</li>
-                    <li class="rodape-desk__item-lista">Rumo à final (Subway)</li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Navegue por aqui</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Ofertas</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Garrafa virtual</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Retornáveis</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Perguntas frequentes</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Dá o play</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Final mágica (Ifood)</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Rumo à final (Subway)</a></li>
                 </ul>
             </div>
             
             <div class="rodape-desk__institucional">
                 <ul class="rodape-desk__institucional__lista">
-                    <li class="rodape-desk__item-lista">Institucional</li>
-                    <li class="rodape-desk__item-lista">Coca-Cola Brasil</li>
-                    <li class="rodape-desk__item-lista">Trabalhe conosco</li>
-                    <li class="rodape-desk__item-lista">Termos de uso</li>
-                    <li class="rodape-desk__item-lista">Privacidade Investidores</li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Institucional</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Coca-Cola Brasil</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Trabalhe conosco</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Termos de uso</a></li>
+                    <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Privacidade Investidores</a></li>
                 </ul>
             </div>
 
             <div class="rodape-desk__buttons">
                 <a href="https://api.whatsapp.com/send?phone=552140022121&text=Oi%2C%20Kora!" target="_blank" class="rodape-desk__buttom whatsapp">
-                    <p>Fale com a gente! </p>
-                    <img src="assets/icon-whatsapp16.png" alt="icone whatsapp">
+                    <p class="whatsapp-texto">Fale com a gente!</p>
+                    <img src="assets/icon-whatsapp-red-16.png" alt="icone whatsapp">
                 </a>
-                <a href="#" class="rodape-desk__buttom">Cadastre-se</a>
-                <a href="#" class="rodape-desk__buttom">Regulamento</a>
+                <a href="#" class="rodape-desk__buttom rodape-desk__cadastro">Cadastre-se</a>
+                <a href="https://www.coca-cola.com.br/regulamento" class="rodape-desk__buttom">Regulamento</a>
             </div>
 
             <div class="rodape-desk__expediente-social">
