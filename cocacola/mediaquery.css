@@ -290,7 +290,7 @@ Typical Device Breakpoints
     }
 
 /*______________________DESKTOP 1440______________________*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1400px) {
 
     /*__________________________header__________________________*/
     .container {
@@ -660,8 +660,8 @@ Typical Device Breakpoints
         align-items: flex-start;
         gap: 66px;
         padding-top: 82px;
-        padding-left: 168px;
-        padding-right: 179px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
 
     .rodape-desk__logo {
@@ -682,6 +682,7 @@ Typical Device Breakpoints
         display: flex;
         flex-direction: column;
         gap: 28px;
+        width: 235px;
     }
 
     .rodape-desk__buttom {
