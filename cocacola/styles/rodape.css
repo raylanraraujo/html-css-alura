@@ -150,6 +150,11 @@ hr {
 .institu {
     display: none;
 }
+
 .institu:checked~.institucional__lista {
     display: block;
-  }
+}
+
+.rodape-desk {
+    display: none;
+}
