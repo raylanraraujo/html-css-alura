@@ -965,7 +965,7 @@ Typical Device Breakpoints
         align-items: center;
         /* flex-wrap: wrap; */
         padding: 0;
-        padding-left: 10rem;
+        padding-left: 2rem;
         text-align: left;
     }
 
@@ -976,8 +976,8 @@ Typical Device Breakpoints
     .coke-sem-acucar__imagem-desktop{
         display: block;
         margin-top: 14rem;
-        margin-left: -6rem;
-        height: 600px;
+        margin-left: 1rem;
+        height: 450px;
     }
 
     .coke-sem-acucar__texto-menor {
@@ -1075,17 +1075,17 @@ Typical Device Breakpoints
     .resgate {
         background-image: url(assets/ticket1.png);
         background-size: contain;
-        height: 553px;
+        height: 558px;
         padding-top: 0rem;
-        margin: -258px 20px 0px 20px;
+        margin: -295px 20px 0px 20px;
         z-index: 3;
     }
 
     .resgate__conteudo {
         position: relative;
-        margin: 0 0rem;
-        top: 162px;
-        left: 60px;
+        margin: 2rem 2rem;
+        top: 166px;
+        left: 10px;
     }
 
     .resgate__titulo {
