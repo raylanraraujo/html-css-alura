@@ -792,7 +792,8 @@ Typical Device Breakpoints
     }
 
     .cabecalho__imagem {
-        padding: 1em 0rem 1.5rem 2.5rem;;
+        padding: 1em 0rem 1.5rem 2.5rem;
+        
     } 
 
     .header__nav {
@@ -1320,3 +1321,77 @@ Typical Device Breakpoints
     }
 }
 
+/*______________________DESKTOP 1024______________________*/
+@media screen and (min-width: 1024px) {
+      /*__________________________header__________________________*/
+    .container {
+        justify-content: flex-start;
+        /* gap: 6rem; */
+    }
+
+    .cabecalho__imagem {
+        padding: 1em 2rem 1rem 3.25rem;
+    } 
+
+    .header__nav {
+        color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: flex-start;
+        gap: 3.75rem;
+    }
+
+    .header__link__entrar {
+    margin-left: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+        /*__________________________studio__________________________*/
+
+        .coke-studio{
+            position: relative;
+            height: 700px;
+        }
+    
+        .coke-studio__conteudo {
+            display: flex;
+            flex-direction: column;
+            gap: 1.875rem;
+            margin-left: 13.5rem;
+            padding-top: 20.25rem;
+        }
+    
+        .coke-studio__titulo {
+            font-size: 3.5rem;
+            width: 524px;
+            margin-bottom: 0;
+        }
+    
+        .coke-studio__texto {
+        width: 384px;
+        }
+    
+        .coke-studio__saiba-mais__link {
+            display: block;
+            width: 240px;
+            text-align: center;
+            color: var(--cor-de-fundo);
+            font-size: 1rem;
+            text-decoration: none;
+            background-color: var(--cor-button);
+            padding: 1.2rem 1rem;
+            margin-top: 1rem;
+            border-radius: 100px;
+        }
+    
+        .seta {
+            background-image: url(assets/seta1png.png);
+            background-size: contain;
+            margin-top: 14.8%;
+        }
+}
+
+  
