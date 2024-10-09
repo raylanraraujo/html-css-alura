@@ -1322,7 +1322,7 @@ Typical Device Breakpoints
 }
 
 /*______________________DESKTOP 1024______________________*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
       /*__________________________header__________________________*/
     .container {
         justify-content: flex-start;
@@ -1349,49 +1349,114 @@ Typical Device Breakpoints
         display: none;
     }
 
-        /*__________________________studio__________________________*/
+    /*__________________________studio__________________________*/
 
-        .coke-studio{
-            position: relative;
-            height: 700px;
-        }
-    
-        .coke-studio__conteudo {
-            display: flex;
-            flex-direction: column;
-            gap: 1.875rem;
-            margin-left: 13.5rem;
-            padding-top: 20.25rem;
-        }
-    
-        .coke-studio__titulo {
-            font-size: 3.5rem;
-            width: 524px;
-            margin-bottom: 0;
-        }
-    
-        .coke-studio__texto {
-        width: 384px;
-        }
-    
-        .coke-studio__saiba-mais__link {
-            display: block;
-            width: 240px;
-            text-align: center;
-            color: var(--cor-de-fundo);
-            font-size: 1rem;
-            text-decoration: none;
-            background-color: var(--cor-button);
-            padding: 1.2rem 1rem;
-            margin-top: 1rem;
-            border-radius: 100px;
-        }
-    
-        .seta {
-            background-image: url(assets/seta1png.png);
-            background-size: contain;
-            margin-top: 14.8%;
-        }
+    .coke-studio{
+        position: relative;
+        height: 570px;
+    }
+
+    .coke-studio__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        margin-left: 15vw;
+        padding-top: 13rem;
+    }
+
+    .coke-studio__titulo {
+        font-size: 2.5rem;
+        width: 490px;
+        margin-bottom: 0;
+    }
+
+    .coke-studio__texto {
+    width: 384px;
+    }
+
+    .coke-studio__saiba-mais__link {
+        display: block;
+        width: 194px;
+        text-align: center;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: var(--cor-button);
+        padding: 1rem 0rem;
+        margin-top: 1rem;
+        border-radius: 100px;
+    }
+
+    .seta {
+        background-image: url(assets/seta1png.png);
+        background-size: contain;
+        margin-top: 5%;
+    }
+
+    /*__________________________saiba mais__________________________*/
+    .saiba-mais {
+        height: 960px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        /* gap: 2rem; */
+        margin: -45px 0 0 0;
+        padding: 0rem;
+        border: 0px solid black;
+        z-index: 1;
+    }
+
+    .saiba-mais__imagem {
+        display: block;
+        height: 683px;
+        width: 512px;
+        background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-position-x: 45%;
+    } 
+
+    .saiba-mais__conteudo {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 146px;
+        margin-left: -40px;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 3rem;
+        width: 421px;
+        
+    }
+
+    .saiba-mais__texto {
+        font-size: 1rem;
+        margin: 0px 0px 0px 0px;
+        padding: 1.5rem 0 1rem 0;
+    }
+
+    .saiba-mais__link {
+        width: 194px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        background-color: var(--cor-button);
+        padding: 1rem 0rem;
+        margin-top: 0rem;
+        border-radius: 100px;
+    }
+
+    .saiba-mais__asterisco {
+        margin: 1rem 0px 0px;
+    }
+        
 }
+
 
   
