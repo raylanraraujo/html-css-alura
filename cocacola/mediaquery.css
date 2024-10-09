@@ -1183,7 +1183,7 @@ Typical Device Breakpoints
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        gap: 32px;
+        gap: 24px;
         padding-top: 32px;
         padding-left: 16px;
         padding-right: 16px;
