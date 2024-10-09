@@ -463,6 +463,9 @@ Typical Device Breakpoints
         text-align: left;
     }
 
+    .coke-sem-acucar__imagem-mobile{
+        display: none;
+    }
 
     .coke-sem-acucar__imagem-desktop{
         display: block;
