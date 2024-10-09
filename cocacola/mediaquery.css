@@ -1651,42 +1651,189 @@ Typical Device Breakpoints
         text-align: center;
     }
 
-        /*__________________________cadastro__________________________*/
-        .cadastro {
-       
-            height: 766px;
-            background-image: url(assets/cadastre-se6.png);
-            background-size: cover;
-            margin: -296px 0px 0px 0px;
-            border-radius: 0px;
-            background-position: 45% 45%;
-            display: flex;
-            flex-direction: column;
-            align-items: left;
-            justify-content: center;
-            z-index: 2;
-        }
+    /*__________________________cadastro__________________________*/
+    .cadastro {
     
-        .cadastro__titulo {
-            width: 318px;
-            font-size: 3rem;
-            font-weight: 600;
-            text-align: left;
-            position: relative;
-            top: 5%;
-            left: 57%;
-            margin: 0rem 0rem 4rem 0rem;
-        }
-        
-        .cadastro__link {
-            font-size: 1rem;
-            width: 256px;
-            padding: 1rem 0rem;
-            text-align: center;
-            font-weight: 500;
-            top: 68%;
-            left: 57%;
-        }
+        height: 766px;
+        background-image: url(assets/cadastre-se6.png);
+        background-size: cover;
+        margin: -296px 0px 0px 0px;
+        border-radius: 0px;
+        background-position: 45% 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .cadastro__titulo {
+        width: 318px;
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: left;
+        position: relative;
+        top: 5%;
+        left: 57%;
+        margin: 0rem 0rem 4rem 0rem;
+    }
+    
+    .cadastro__link {
+        font-size: 1rem;
+        width: 256px;
+        padding: 1rem 0rem;
+        text-align: center;
+        font-weight: 500;
+        top: 68%;
+        left: 57%;
+    }
+
+    /*__________________________rodape__________________________*/
+    .rodape-mobile {
+        display: none;
+    }
+
+    .rodape-desk {
+        display: block;
+    }
+
+    .rodape-desk__conteudo{
+        background-color: #0B0B0B;
+        height: 276px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 47px;
+        padding-top: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .rodape-desk__logo {
+        width: 174px;
+        padding-top: 5px;
+    }
+
+    .rodape-desk__navegue__lista {
+        width: 138px;
+    }
+
+    .rodape-desk__institucional__lista {
+        width: 120px;
+    }
+    
+    .rodape-desk__item-lista {
+        font-size: 0.75rem;
+        line-height: 30px;
+        list-style-type: none;
+    }
+
+    .rodape-desk__buttom {
+        display: block;
+    }
+
+    .rodape-desk__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .rodape-desk__buttom {
+        font-size: 0.75rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 0.5rem 1rem;
+        width: 134px;
+    }
+
+    .rodape-desk__buttom:hover {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+
+    .whatsapp {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* .rodape-desk__cadastro {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+    }
+
+    .rodape-desk__cadastro:hover {
+        background-color: #0B0B0B;
+        color: white;
+        transition: 0.5s;
+    } */
+
+
+    .rodape-desk__expediente-social {
+        height: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .rodape-desk__expediente {
+        font-size: 0.75rem;
+    }
+
+    .rodape-desk__expediente__lista {
+        line-height: 30px;
+    }
+
+    .rodape-desk__expediente__item {
+        font-size: 0.75rem;
+        list-style-type: none;
+    }
+
+    .rodape-desk__item-lista-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .rodape-desk__item-lista-link:hover {
+        color: #F40000;
+        /* font-weight: 700; */
+    }
+
+    .rodape-desk__redes-sociais__icons {
+        width: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+
+    .rodape-desk__asterisco {
+        background-color: #0B0B0B;
+        color: white;
+        font-size: 0.625rem;
+        font-weight: 300;
+        line-height: 16px;
+        text-align: center;
+        padding: 0px 40px 19px 40px;
+    }
+
+    .rodape-desk__copy {
+        height: 72px;
+        background-color: #1C1C1C;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
