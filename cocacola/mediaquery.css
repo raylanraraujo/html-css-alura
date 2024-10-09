@@ -1323,7 +1323,7 @@ Typical Device Breakpoints
 
 /*______________________DESKTOP 1024______________________*/
 @media screen and (min-width: 1024px) and (max-width: 1390px) {
-      /*__________________________header__________________________*/
+    /*__________________________header__________________________*/
     .container {
         justify-content: flex-start;
         /* gap: 6rem; */
@@ -1423,7 +1423,7 @@ Typical Device Breakpoints
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        margin-top: 146px;
+        margin-top: 120px;
         margin-left: -40px;
     }
 
@@ -1455,8 +1455,45 @@ Typical Device Breakpoints
     .saiba-mais__asterisco {
         margin: 1rem 0px 0px;
     }
-        
+
+    /*__________________________ofertas__________________________*/
+    .ofertas {
+        height: 265px;
+        width: 883px;
+        top: 1131.5px;
+        left: 72px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ofertas__conteudo{
+        height: 395px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .ofertas__titulo {
+        font-size: 2rem;
+        font-weight: 700;
+        width: 450px;
+        margin-top: -127px;
+        margin-bottom: 1rem;
+    }
+
+    .ofertas__link {
+    font-size: 1rem;
+    font-weight: 500;
+    /* width: 230px; */
+    padding: 1rem 2rem;
+    }
 }
+
+
+            
+
 
 
   
