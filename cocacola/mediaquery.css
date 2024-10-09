@@ -1395,7 +1395,7 @@ Typical Device Breakpoints
 
     /*__________________________saiba mais__________________________*/
     .saiba-mais {
-        height: 960px;
+        height: 682px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1489,6 +1489,81 @@ Typical Device Breakpoints
     /* width: 230px; */
     padding: 1rem 2rem;
     }
+
+    /*__________________________coke-sem-acucar__________________________*/
+    .coke-sem-acucar{
+        height: 664px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        padding: 0;
+        padding-left: 5.5rem;
+        text-align: left;
+    }
+
+    .coke-sem-acucar__imagem-mobile{
+        display: none;
+    }
+
+    .coke-sem-acucar__imagem-desktop{
+        display: block;
+        margin-top: 16rem;
+        margin-left: 0rem;
+        margin-right: 10rem;
+        padding-left: 0rem;
+        height: 606px;
+    }
+
+    .coke-sem-acucar__conteudo {
+        margin-top: 1rem;
+    }
+
+    .coke-sem-acucar__texto-menor {
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 8rem;
+    }
+
+    .coke-sem-acucar__titulo {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__texto {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__saiba-mais {
+        display: block;
+       /* color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 1.5rem 0rem;
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center; */
+
+        display: block;
+        width: 220px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        padding: 1.2rem 0rem;
+        margin-top: 0rem;
+        border-radius: 100px;
+    }
+
+
 }
 
 
