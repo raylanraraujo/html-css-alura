@@ -57,8 +57,12 @@
     .por-dentro__email {
         width: 30%;
     }
-
-
-
-
 }
+
+@media screen and (min-width: 1728px) {
+    .por-dentro {
+        padding: 4em 15vw;
+    }
+}
+
+

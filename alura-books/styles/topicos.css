@@ -39,9 +39,15 @@
 
     .topicos__lista{
         margin: auto;
-        width: 790px;
+        padding: 0 10vw;
         gap: 16px;
         margin-top: 3rem;
         margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .topicos {
+        padding: 4em 15vw;
     }
 }
