@@ -19,6 +19,7 @@
     --fonte-principal: "Poppins", sans-serif;
     --fonte-secundaria: 'Josefin Sans'
 }
+
 /*linear-gradient(-42deg, #F40000 43%, #000000 100%);*/
 body {
     background-color: var(--cor-de-fundo);
