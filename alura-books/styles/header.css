@@ -7,6 +7,15 @@
     display: inline-block; /*para poder permitir ajustar altura e largura do item*/
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburger {
+    background-image: url(../imagens/Menu\ Aberto.svg);
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+}
+
+
 .cabecalho { 
     background-color: var(--branco);
     display: flex;
