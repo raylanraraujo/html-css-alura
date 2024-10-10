@@ -27,3 +27,21 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width:1024px){
+    .topicos__titulo {
+        font-size: 24px;    
+    }
+
+    .topicos__link {
+    font-size: 24px;
+    }
+
+    .topicos__lista{
+        margin: auto;
+        width: 790px;
+        gap: 16px;
+        margin-top: 3rem;
+        margin-bottom: 1em;
+    }
+}
