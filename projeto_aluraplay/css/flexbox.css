@@ -2,6 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0%;
+    position: fixed; /*mantem a posição fixa do elemento*/
+    top: 0%; /*informa a posição que o elemento ficará fixo*/
+}
+
+.cabecalho__pesquisar__item {
+    display: none;
+}
+
+@media screen and (min-width: 834px){
+    .cabecalho__pesquisar__item {
+    display: block;
+    }
 }
