@@ -11,6 +11,37 @@
     display: none;
 }
 
+.menu__container {
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    /* align-items: center; */
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+/*propriedade colocada diretamente nos elementos para alinha-los no centro do container*/
+.menu__lista li {
+    align-self: center;
+}
+
+/*para sumir com as listas sem a necessidade de criar classes*/
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4) {
+    display: none;
+}
+
 /* SEÇÃO SUPERIOR */
 .superior__secao__container{
     display: flex;
@@ -35,48 +66,6 @@
     display: block;
     }
 
-
-
-    /* RODAPE */
-    .rodape__container {
-        justify-content: space-between;
-    }
-}
-
-@media screen and (min-width: 375px) {
-    .menu__container {
-        position: fixed;
-        bottom: 0%;
-        height: 74px;
-        width: 100%;
-    }
-
-    .menu__lista {
-        display: flex;
-        justify-content: space-around;
-        height: 100%;
-        /* align-items: center; */
-    }
-
-    .menu__itens {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-    }
-    /*propriedade colocada diretamente nos elementos para alinha-los no centro do container*/
-    .menu__lista li {
-        align-self: center;
-    }
-
-    /*para sumir com as listas sem a necessidade de criar classes*/
-    .menu__lista:nth-child(2),
-    .menu__lista:nth-child(3),
-    .menu__lista:nth-child(4) {
-        display: none;
-    }
-}   
-
-@media screen and (min-width: 834px) {
     .menu__container{
         left: 0;
         top: 80px;
@@ -89,4 +78,59 @@
         justify-content: flex-start;
         gap: 40px;
     }
+
+    /* RODAPE */
+    .rodape__container {
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .menu__container {
+        width: 239px;
+        overflow: scroll;
+    }
+
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+    }
+
+    .menu__lista {
+        height: auto;
+        padding: 20px 17px 20px 15px;
+        gap: 15px;
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    /* 
+    essa propiredade pode ser utilizada, mas o leitor de tela iria ler na sequencia que o conteúdo foi colocado no html, mesmo que o  css altere a disposição deles
+
+    .maispagina {
+        order: 1;
+    }
+
+    .premium {
+        order: 2;
+    }
+    .filmes {
+        order: 3;
+    }
+
+   .jogos {
+    order: 4;
+   } */
+
+   /*Vídeos*/
 }
