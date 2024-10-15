@@ -1,0 +1,14 @@
+.secao {
+    display: grid;
+    align-items: end; /*alinha os itens verticalmente na linha*/
+    row-gap: 1.5rem; /*insere um espaço entre as linhas*/
+}
+
+.secao-horizontal, .secao-vertical {
+    grid-template-rows: 70px auto; /*define a altura das linhas da classe dando assim um espaçamento entre elas*/
+}
+
+.secao__titulo {
+    justify-self: flex-start;
+    align-self: flex-end;
+}
