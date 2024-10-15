@@ -9,6 +9,10 @@
         display: none;
     }
 
+    .cabecalho{
+        justify-self: center ; /*propriedade do grid que alinha itens. Nesse caso o item foi alinhado ao centro*/
+    }
+
     .container {
         padding-left: 1rem;
         padding-right: 1rem;

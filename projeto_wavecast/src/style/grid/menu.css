@@ -1,0 +1,9 @@
+.menu-lateral {
+    display: grid;
+    grid-template-rows: auto auto auto 1fr; /*cria as linhas. Nesse caso sao tres linhas de altura automática e a úmtima tem uma altura de 1fr que pega o espaço disponível*/
+    row-gap: 3rem; /*aplica espaçamento entre as linhas*/
+}
+
+.menu-lateral__logo {
+    justify-self: center; /*propriedade do grid que alinha itens. Nesse caso o item foi alinhado ao centro*/
+}
