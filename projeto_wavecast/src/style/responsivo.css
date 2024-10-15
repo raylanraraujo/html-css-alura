@@ -33,6 +33,7 @@
 
 }
 
+/*Tablets*/
 @media only screen and (min-width: 1024px) and (max-width: 1399px) {
 
     .container {
@@ -43,6 +44,10 @@
     .cabecalho .cabecalho__logo,
     .cabecalho__botao__avancar {
         display: none;
+    }
+
+    .menu-lateral { 
+        width: 208px;    /*define a largura da barra de menu para tablets*/
     }
 
     .navbar {
@@ -68,11 +73,16 @@
 
 }
 
+/*DESKTOP*/
 @media only screen and (min-width: 1400px) {
 
     .navbar,
     .cabecalho__logo {
         display: none;
+    }
+
+    .menu-lateral {
+        width: 228px; 
     }
 
 }
