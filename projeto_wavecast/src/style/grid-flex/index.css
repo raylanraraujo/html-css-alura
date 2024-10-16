@@ -4,7 +4,8 @@ body {
     /*define as areas onde os grid items serão posicionados*/
     grid-template-areas: 
     "aside header"
-    "aside main";
+    "aside main"
+    "player player";
 
     grid-template-columns: auto 1fr; /*define a largura automática da coluna que se baseará na largura dos elemento. Neste caso seria a largura do menu lateral.*/
 }                                    /*1fr é franção e divide o espaço disponível igualmente*/
@@ -19,5 +20,9 @@ body {
 
 .principal {
     grid-area: main; /* define que a classe principal sera posicionada na área main do grid template*/
+}
+
+.secao-player {
+    grid-area: player;
 }
 
