@@ -7,3 +7,8 @@
 .menu-lateral__logo {
     justify-self: center; /*propriedade do grid que alinha itens. Nesse caso o item foi alinhado ao centro*/
 }
+
+.menu-lateral .menu-lateral__link button {
+    display: flex;
+    align-items: center;
+}
