@@ -37,3 +37,13 @@
     grid-column: 1 / 3;
     column-gap: 1.25rem;
 }
+
+.secao-vertical .secao__cartoes .cartao a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.secao-vertical .secao__cartoes .cartao .cartao__titulo {
+    flex-grow: 1; /*informa que o título cresca na parte do cartão jogando para a parte de baixo do carto o subtitulo h4*/
+}
