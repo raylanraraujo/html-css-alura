@@ -3,6 +3,8 @@
 
     grid-template-columns: auto 1fr auto;   /*define a quantidade de colunas e especifica o tamanho delas*/
     grid-template-rows: auto 3rem 0.9rem;   /*define a quantidade de linhas e especifica o tamanho delas*/
+
+    column-gap: 1.25rem; /*para acrescentar um espaco entre as colunas afastando a imagem do cartão e seu título*/
 }
 
 .secao-horizontal .cartao__imagem{

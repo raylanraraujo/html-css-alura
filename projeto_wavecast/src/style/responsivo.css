@@ -1,3 +1,4 @@
+/*CELULAR*/
 @media only screen and (max-width: 1023px) {
     .menu-lateral,
     .rodape,
@@ -22,19 +23,27 @@
         display: block;
     }   
 
+    .secao-horizontal .cartao{
+        column-gap: .5rem; /*para acrescentar um espaco entre as colunas afastando a imagem do cartão e seu título*/
+ 
+    }
+
     .secao-horizontal .cartao__imagem {
         height: 4.58rem;
     }
  
     .secao-horizontal .cartao__titulo {
         font: 700 14px/20px Open Sans, sans-serif;
+        align-self: center; /*serve pra alinhar o item na vertical. Aplicada diretamente no item (Grid Item)*/
     }
 
     .secao-vertical .cartao {
         background-color: transparent;
         padding: 0;
     }
+    
 
+ 
 }
 
 /*Tablets*/
