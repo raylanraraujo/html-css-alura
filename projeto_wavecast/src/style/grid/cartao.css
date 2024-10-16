@@ -1,0 +1,8 @@
+.secao-horizontal .cartao {
+    display: grid;
+
+    grid-template-columns: auto 1fr auto;   /*define a quantidade de colunas e especifica o tamanho delas*/
+    grid-template-rows: auto 3rem 0.9rem;   /*define a quantidade de linhas e especifica o tamanho delas*/
+
+    
+}

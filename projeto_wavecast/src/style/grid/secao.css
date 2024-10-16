@@ -12,3 +12,17 @@
     justify-self: flex-start;
     align-self: flex-end;
 }
+
+.secao-horizontal .secao__cartoes {
+    display: grid;
+
+    /*auto-fit organiza os elementos de acordo com o espaço disponível. Ajusta os elementos de forma responsiva sem precisar usar @media*/
+    /*define que a largura mínima ocupará 80% do espaço disponível e dividida em 2 colunas*/
+    /*defina a largura máxima será de 350px e ocupará 80% do espaço disponível em 3 colunas*/
+    /*1fr fora dos parenteses define que os elementos aproveitem toda a largura disponível nesse layout*/
+    grid-template-columns: repeat(auto-fit, minmax(min(80%/2, max(350px, 80%/3)), 1fr)); 
+  
+
+    gap: 1.25rem;
+}
+
