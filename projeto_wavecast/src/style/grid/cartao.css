@@ -3,6 +3,23 @@
 
     grid-template-columns: auto 1fr auto;   /*define a quantidade de colunas e especifica o tamanho delas*/
     grid-template-rows: auto 3rem 0.9rem;   /*define a quantidade de linhas e especifica o tamanho delas*/
-
-    
 }
+
+.secao-horizontal .cartao__imagem{
+    grid-area: 1 / 1 / 4 / 2 ; /*para determinar a posição da imagem - linha onde começa / coluna onde começa / linha onde termina / coluna onde termina*/
+}
+
+.secao-horizontal .cartao__botao {
+    grid-area: 2 / 3 / 3 / 4 ;
+}
+
+.secao-horizontal .cartao__titulo {
+    grid-area: 2 / 2 / 3 / 3 ;
+}
+
+.secao-horizontal .cartao__player {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+
+
