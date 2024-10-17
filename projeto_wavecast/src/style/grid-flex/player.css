@@ -68,32 +68,68 @@ body {
 .secao-player {
     display: grid;
     height: 96px;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     align-items: center;
     
 }
 
 .player_descricao {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto;
     grid-template-areas: 
     "imagem descricao"
     "imagem descricao";
-    column-gap: 2rem;
-    /* align-items: center; */
+    column-gap: 1rem;
+    align-items: center;
+    
 }
 
-.secao-player .player_descricao img {
+ .secao-player .player_descricao img {
     grid-area: imagem;
-    /* align-self: center; */
+    height: 100%;
 }
 
 .secao-player .player_descricao h3{
     grid-area: descricao;
+    align-self: center;
     /* align-self: center; */
 }
 .secao-player .player_descricao span {
     grid-area: descricao;
     align-self: flex-end;
+    display: block;
+} 
+
+.player_temporizador {
+    display: grid;
+    grid-template: auto / auto;
+    align-items: center;
 }
+
+.player_temporizador-botoes{
+    display: flex;
+    gap: 1.2rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.player_temporizador-cronometro {
+    grid-row:2;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.player_volume {
+    display: flex;
+    
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 1rem;
+}
+
+.player_volume_nivel {
+    width: 200px;
+}
+    
