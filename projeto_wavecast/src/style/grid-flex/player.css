@@ -67,8 +67,8 @@ body {
 /*Posicionamento de colunas e linhas do container principal */
 .secao-player {
     display: grid; /* Define a posição e tamanho da área desse elemento dentro de um grid pai. */
-    grid-template-columns: 204px 1fr 164px;
-    grid-template-rows: auto;
+    grid-template-columns: 204px 1fr 164px; /*Define a estrutura das colunas do grid dentro desse elemento. A primeira ocupando 204px e a última ocupando 164px (width esse baseado no documento figma). A coluna do meio ocupando o espaço restante disponível.*/
+    grid-template-rows: auto; /*A única linha terá altura que se ajustará ao conteúdo dela.*/
     column-gap: 1.25rem;
 }
 
