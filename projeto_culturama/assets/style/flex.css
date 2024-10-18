@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 33px; /*propriedade cria uma lacuna vertical entre os elementos*/
+}
+
+@media screen and (min-width: 719px){
+    .menu {
+        column-gap: 75px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .menu {
+        column-gap: 105px;
+        flex-wrap: nowrap;
+    }
+
+    .menu__item:nth-child(1) { /*Seletor diz para aplicar as regras de estilo apenas ao primeiro elemento filho que tenha a classe "menu__item" dentro de seu elemento pai. Em outras palavras, estamos pegando o primeiro item do menu.*/
+        order:1; /* estamos dizendo que o primeiro item do menu deve ser o primeiro a aparecer*/
+    }
+
+    .menu__item:nth-child(2) {
+        order:3;
+    }
+
+    .menu__item:nth-child(3) {
+        order:4;
+    }
+
+    .menu__item:nth-child(4) {
+        order:5;
+    }
+
+    .menu__item:nth-child(5) {
+        order:2;
+    }
+}
