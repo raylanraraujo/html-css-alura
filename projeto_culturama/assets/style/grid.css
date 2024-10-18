@@ -22,9 +22,6 @@
     "nome nome"
     "data data"
     "local botao";
-    
-
-
 }
 
 .eventos__item img {
@@ -46,6 +43,33 @@
 .eventos__item button {
     grid-area: botao;
     /* align-self: flex-end; */
+}
+
+.agenda__item {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(2, 1f);
+    grid-template-areas: 
+    "imagem imagem"
+    "data nome"
+    "data nome"
+    "data botao";
+}
+
+.agenda__item img {
+    grid-area: imagem;
+}
+
+.agenda__item h3 , h4 , h5 {
+    grid-area: data;
+}
+
+.agenda__item h6 {
+    grid-area: nome;
+}
+
+.agenda__item button {
+    grid-area: botao;
 }
 
 @media screen and (min-width: 720px) {
