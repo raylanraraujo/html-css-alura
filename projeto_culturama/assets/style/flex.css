@@ -1,3 +1,5 @@
+/*MENU*/
+
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -6,11 +8,28 @@
     column-gap: 33px; /*propriedade cria uma lacuna vertical entre os elementos*/
 }
 
-@media screen and (min-width: 719px){
+/* CATEGORIAS */
+.categorias__lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+@media screen and (min-width: 720px){
+    /*MENU*/
     .menu {
         column-gap: 75px;
-    }
+       }
+
+       /* CATEGORIAS */
+       .categorias__lista {
+        flex-wrap: wrap;
+        column-gap: 1.625rem;
+        row-gap: 1rem;
+       }
 }
+
+
 
 
 @media screen and (min-width: 1440px) {
