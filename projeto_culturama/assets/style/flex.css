@@ -15,6 +15,17 @@
     row-gap: 0.5rem;
 }
 
+.destaques {
+    display: flex;
+    /* justify-content: space-between; eu coloquei mas pela aula percebi que não é necessário*/
+    align-items: center;
+    gap: 1rem;
+}
+
+.destaques__barra{
+    flex-grow: 1; 
+}
+
 @media screen and (min-width: 720px){
     /*MENU*/
     .menu {
