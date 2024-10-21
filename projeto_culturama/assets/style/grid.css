@@ -96,7 +96,33 @@
     }
 
 
+@media screen and (min-width: 1440px){
+    .categorias {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        /* grid-template-rows:auto 1fr auto; */
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+    }
 
+    .categorias__titulo {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .categorias__lista {
+        grid-area: 2 / 1 / 4 / 2 ;
+    }
+
+    .destaques {
+        grid-area: 2 / 2 / 3 / 3;
+        align-self: flex-end;
+    }
+
+    .categorias__imagem {
+        grid-area: 3 / 2 / 4 / 3;
+        align-self: flex-end; /*ou posso colocar no template-rows da segunda linha 1fr*/
+    }
+}
 
      /* inicio resolucao alura
 
