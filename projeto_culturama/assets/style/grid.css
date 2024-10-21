@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto 1fr 1fr auto;
-    row-gap: 1rem;
+    /* row-gap: 1rem; Foi resolvido colocando align-self nas tags h3 e h5 */
     grid-template-areas: 
     "imagem imagem"
     "nome nome"
@@ -30,6 +30,7 @@
 
 .eventos__item h3{
     grid-area: nome;
+    align-self: center;
 }
 
 .eventos__item h4 {
@@ -38,6 +39,7 @@
 
 .eventos__item h5 {
     grid-area: local;
+    align-self: flex-end;
 }
 
 .eventos__item button {
