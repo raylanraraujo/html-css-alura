@@ -1,0 +1,38 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(180deg, #E8F5C8 0%, #FFFF 96.87%);
+    padding: 2rem;
+
+    nav {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+        .linha{
+            border-top: 1px solid black;
+            width: 80%;
+        }
+
+        ul {
+            display: inline-flex; /* para deixar tudo numa linha só*/
+            gap: 2rem;
+
+            li {
+                list-style-type: none;
+            }
+
+            a {
+                color: rgba(12, 4, 33, 1);
+                font-weight: 500;
+                font-family: 'Montserrat', sans-serif;
+                text-decoration: none;
+            }
+        }
+    }
+}
