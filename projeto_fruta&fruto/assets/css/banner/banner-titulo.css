@@ -1,12 +1,12 @@
 .banner__titulo {
+    color:#FDFDFD;
     font-family: Pacifico, cursive;
     font-size: 5.0625rem;
-    color: white;
-    position: absolute; /*informa que o elemento tem a posição se baseando na página absoluta (mas o que queremos é que ele seja relacionado com o baner que ele se encontra*/
     left: 50%;
-    top: 50%;
+    position: absolute; /*informa que o elemento tem a posição se baseando na página absoluta (mas o que queremos é que ele seja relacionado com o baner que ele se encontra*/
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     text-align: center;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
