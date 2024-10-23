@@ -81,4 +81,11 @@ header #home .img-home img {
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  gap: 2rem;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
