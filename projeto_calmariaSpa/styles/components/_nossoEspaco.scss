@@ -1,0 +1,5 @@
+@use'../abstract/mixins'; //já que irei usar o mixin eu devo declarar ele dentro do documento
+
+#nosso-espaco{
+    @include mixins.margem-central(80%);
+}
