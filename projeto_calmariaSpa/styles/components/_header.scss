@@ -30,6 +30,9 @@ header {
                 font-weight: 500;
                 text-decoration: none;
                 
+                &:hover {
+                    font-weight: 600;
+                }
             }
         }
     }
