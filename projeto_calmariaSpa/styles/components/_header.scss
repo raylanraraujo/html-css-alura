@@ -1,0 +1,79 @@
+@use'../abstract/variaveis'; // importando os estilos já que estou usando variáveis 
+
+header{
+    background: variaveis.$gradiente-primeiro;
+    padding: 2rem;
+
+    nav {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+        .linha{
+            border-top: 1px solid black;
+            width: 80%;
+        }
+
+        ul {
+            display: inline-flex; /* para deixar tudo numa linha só*/
+            gap: 2rem;
+
+            li {
+                list-style-type: none;
+            }
+
+            a {
+                color: variaveis.$cor-primaria;
+                font-weight: 500;
+                font-family: variaveis.$ft-textos;
+                text-decoration: none;
+            }
+        }
+    }
+
+    #home {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1040px;
+        width: 80%;
+
+        .textos-home {
+            max-width: 464px;
+
+            h1{
+                color: variaveis.$cor-primaria;
+                font-family: variaveis.$ft-titulos;
+                font-size: 42px;
+                font-weight: 400;
+                margin-bottom: 2rem;
+
+                span {
+                    color: variaveis.$cor-secundaria
+                }
+            }
+
+            button {
+                background: variaveis.$cor-secundaria;
+                border: none;
+                border-radius: 40px;
+                color: variaveis.$cor-branco;
+                font-family: variaveis.$ft-textos;
+                font-size: 22px;
+                font-weight: 600;
+                padding: 1.5rem;
+                width: 284px;
+            }
+        }
+
+        .img-home {
+            max-width: 474px;
+
+            img{
+                width:100%
+            }
+        }
+    }
+}
