@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background: linear-gradient(180deg, #E8F5C8 0%, white 96.87%);
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
   padding: 2rem;
 }
 header nav {
@@ -27,7 +27,7 @@ header nav ul li {
   list-style-type: none;
 }
 header nav ul a {
-  color: rgb(12, 4, 33);
+  color: #0C0421;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
