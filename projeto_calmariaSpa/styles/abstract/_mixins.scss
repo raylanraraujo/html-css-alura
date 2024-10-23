@@ -1,0 +1,4 @@
+@mixin margem-central($width){
+    margin: 0 auto; //para dar uma centralizada nos elementos
+    width: $width; // para colocar largura do elemento e a largura é o valor da variável do mixin
+}
