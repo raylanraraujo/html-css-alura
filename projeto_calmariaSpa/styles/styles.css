@@ -31,4 +31,42 @@ header nav ul a {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+}
+header #home {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 80%;
+}
+header #home .textos-home {
+  max-width: 464px;
+}
+header #home .textos-home h1 {
+  color: #0C0421;
+  font-family: "Krona One", sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+header #home .textos-home h1 span {
+  color: #4E75FF;
+}
+header #home .textos-home button {
+  background: #4E75FF;
+  border: none;
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 1.5rem;
+  width: 284px;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
