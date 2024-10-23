@@ -2,3 +2,9 @@
     margin: 0 auto; //para dar uma centralizada nos elementos
     width: $width; // para colocar largura do elemento e a largura é o valor da variável do mixin
 }
+
+@mixin ff-fs-cl($f-family, $f-size, $f-color){
+    font-family: $f-family;
+    font-size: $f-size;
+    color: $f-color;
+}
