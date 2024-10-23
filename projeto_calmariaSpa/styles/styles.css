@@ -77,15 +77,30 @@ header #home .img-home img {
   width: 80%;
 }
 #nosso-espaco .detalhes {
-  display: inline-flex;
-  width: 100%;
   align-items: center;
-  justify-content: space-around;
+  display: inline-flex;
   gap: 2rem;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2rem 0;
 }
 #nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
   max-width: 500px;
 }
+#nosso-espaco .detalhes .espaco-textos .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.9375rem;
+  color: #4E75FF;
+  font-weight: 400;
+}
+#nosso-espaco .detalhes .espaco-textos .infos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  color: #0C0421;
+}
 #nosso-espaco .detalhes .espaco-textos .separador {
   width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=styles.css.map */
