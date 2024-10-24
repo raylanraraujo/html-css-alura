@@ -1,0 +1,36 @@
+@use '../abstract/variaveis';
+
+@use '../abstract/mixins';
+
+#desconto{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    .desconto-form{
+        // background-color: aqua;
+
+        h4{
+            @include mixins.ff-fs-cl(variaveis.$ft-titulos, 1.9375rem, variaveis.$cor-primaria); 
+            font-weight: 400;
+        }
+
+        p{
+            @include mixins.ff-fs-cl(variaveis.$ft-textos, 1.375rem, variaveis.$cor-primaria);
+            font-weight: 400;
+            
+        }
+
+        .input-btn{
+            input{
+
+            }
+
+            button{
+
+            }
+
+        }
+    }
+}
