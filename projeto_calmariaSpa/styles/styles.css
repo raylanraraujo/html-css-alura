@@ -260,4 +260,16 @@ header #home .img-home img {
 }
 #contatos .contatos-form .inputs .btn:hover {
   background: #4E75FF;
+}
+
+footer {
+  background: #E8F5C8;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0C0421;
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9375;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */
